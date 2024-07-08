@@ -116,7 +116,7 @@ class LoginAPIService {
             }
           } else if (response.statusCode == 404) {
             Loader().dismiss(context);
-            var jsonResponse = jsonDecode(response.body);
+          // var jsonResponse = jsonDecode(response.body);
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               backgroundColor: Colors.black,
               content: Text(
@@ -125,6 +125,7 @@ class LoginAPIService {
               )));
           } else if (response.statusCode == 401 || response.statusCode == 422) {
             Loader().dismiss(context);
+            // ignore: unused_local_variable
             var jsonResponse = jsonDecode(response.body);
             ScaffoldMessenger.of(context).showSnackBar(SnackBar(
               backgroundColor: Colors.black,
@@ -140,7 +141,7 @@ class LoginAPIService {
                 "Something went Wrong..",
                 style: TextStyle(color: Colors.white),
               )));
-            var jsonResponse = jsonDecode(response.body);
+          //  var jsonResponse = jsonDecode(response.body);
           }
         })
         .catchError((error) {

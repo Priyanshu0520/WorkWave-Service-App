@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.firebase.inappmessaging.firebase_in_app_messaging-merged_res-22:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/96fd8042f2d491536dd7b3a9210d756e/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.firebase.inappmessaging.firebase_in_app_messaging-mergeReleaseResources-20:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/96fd8042f2d491536dd7b3a9210d756e/transformed/appcompat-1.1.0/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

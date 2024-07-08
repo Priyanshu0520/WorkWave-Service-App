@@ -17,30 +17,30 @@ import '../billing_payment_screens/manPowerBillingScreen.dart';
 import 'manpower_description_screen.dart';
 
 class ManpowerTimerPage extends StatefulWidget {
-  var employerid;
-  var orderid;
-  var orderlat;
-  var orderlongi;
-  var ordercategory;
-  var orderotp;
-  var orderlocation;
-  var orderprice;
-  var orderworkinghrs;
+  var employerId;
+  var orderId;
+  var orderLat;
+  var orderLong;
+  var orderCategory;
+  var orderOtp;
+  var orderLocation;
+  var orderPrice;
+  var orderWorkingHour;
   var sitelocation;
-  var orderworkdetail;
+  var orderWorkDetail;
 
   ManpowerTimerPage({
-    this.employerid,
-    this.orderid,
-    this.orderlat,
-    this.orderlongi,
-    this.ordercategory,
-    this.orderotp,
-    this.orderlocation,
-    this.orderprice,
-    this.orderworkinghrs,
+    this.employerId,
+    this.orderId,
+    this.orderLat,
+    this.orderLong,
+    this.orderCategory,
+    this.orderOtp,
+    this.orderLocation,
+    this.orderPrice,
+    this.orderWorkingHour,
     this.sitelocation,
-    this.orderworkdetail,
+    this.orderWorkDetail,
     Key? key,
   }) : super(key: key);
 
@@ -131,7 +131,7 @@ class _ManpowerTimerPageState extends State<ManpowerTimerPage> {
 //     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => ManBillingPage()));
 //   }
   Future<Map<String, dynamic>> fetchDataFromAPI() async {
-    var id = widget.orderid;
+    var id = widget.orderId;
     final response = await http.get(Uri.parse(
         'https://workwave-backend.vercel.app/api/v1/employer/getStartEmdTimeByOrderId/$id'));
 
@@ -146,7 +146,7 @@ var employerdata;
   Future<void> getdataofemployer() async {
     try {
       // String id = manPoerId;
-      var id = widget.employerid;
+      var id = widget.employerId;
       final apiUrl = 'https://workwave-backend.vercel.app/api/v1/employer/$id';
       print("api url ::: ${apiUrl}");
       print('7');
@@ -186,7 +186,7 @@ var employerdata;
   @override
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context);
-     print(' idd aayi hhh${widget.orderid}');
+     print(' idd aayi hhh${widget.orderId}');
     return Scaffold(
       appBar: AppBar(
         title: Text('Your Booking'),
@@ -429,8 +429,8 @@ var employerdata;
                                       children: [
                                         if (currentPageIndex == 0)
                                           ManDiscriptionScreen(
-                                             orederemployerid: widget.employerid,
-                                              orderid: widget.orderid,
+                                             orederemployerid: widget.employerId,
+                                              orderid: widget.orderId,
                                               orderlocation: orderData['siteLocation'],
                                                orderprice: orderData['bookedPayment'],
                                               orderworkdetail:
@@ -461,7 +461,7 @@ var employerdata;
 
   String ?entimee;
   void createBill(BuildContext ctx) async {
-    var id = widget.orderid;
+    var id = widget.orderId;
     print('tata1${id}');
       
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -497,9 +497,9 @@ print('tata2${startTime}');
         prefs.setString(SPkey.orderBillresponce, res);
  Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) =>  ManBillingPage(
-              employerid: widget.employerid,
-              orderid: id,
-              endtime: entimee,)));
+              employerId: widget.employerId,
+              orderId: id,
+              endTime: entimee,)));
         sendMsgToEmpForComplted(ctx);
       } else {
         ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
@@ -525,7 +525,7 @@ print('tata2${startTime}');
   bool isLoading = true;
   Future sendMsgToEmpForComplted(BuildContext ctx) async {
     try {
-      var empid = widget.employerid;
+      var empid = widget.employerId;
       print('empppiiid  ${empid}');
       // SharedPreferences prefs = await SharedPreferences.getInstance();
       // String accessToken = prefs.getString("manpoweraccesstoken") ?? "";
@@ -534,7 +534,7 @@ print('tata2${startTime}');
         "body": "Work completed",
         "title": "Work Completed",
         "senderId": GlobalConstant.userID,
-        "receiverId": widget.employerid,
+        "receiverId": widget.employerId,
         "category": '',
         "siteLocation": "",
         "explainYourWork": "",
@@ -556,9 +556,9 @@ print('tata2${startTime}');
 
         Navigator.pushReplacement(context,
             MaterialPageRoute(builder: (context) =>  ManBillingPage(
-              orderid: widget.orderid,
-              employerid: widget.employerid,
-              endtime: entimee,)));
+              orderId: widget.orderId,
+              employerId: widget.employerId,
+              endTime: entimee,)));
       } else {
         setState(() {
           isLoading = false;
@@ -591,7 +591,7 @@ print('tata2${startTime}');
     try {
    
       var response = await http.get(Uri.parse(
-          "https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=${widget.orderid}"));
+          "https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=${widget.orderId}"));
       var json = jsonDecode(response.body);
 
       if (response.statusCode == 200) {

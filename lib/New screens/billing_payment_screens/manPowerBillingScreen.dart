@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
@@ -11,12 +13,13 @@ import '../../new utils/colors.dart';
 import '../../new_services/global_constants.dart';
 import '../bottomnav bars/manp_bottom_navbar_provider.dart';
 
+// ignore: must_be_immutable
 class ManBillingPage extends StatefulWidget {
-  final String? endtime;
-  String ?employerid;
-  String ?orderid;
+  final String? endTime;
+  String ?employerId;
+  String ?orderId;
 
-  ManBillingPage( { this.orderid, this.employerid,  this.endtime, Key? key}) ;
+  ManBillingPage( { this.orderId, this.employerId,  this.endTime, Key? key}) ;
 
   @override
   State<ManBillingPage> createState() => _ManBillingPageState();
@@ -40,11 +43,10 @@ class _ManBillingPageState extends State<ManBillingPage> {
     // setState(() {
     //   isLoading = true;
     // });
-    var id = widget.orderid;
+    var id = widget.orderId;
     try {
       final apiUrl =
           'https://workwave-backend.vercel.app/api/paymentt/put/updatePaymentStatus/$id';
-      print('urllllll: ${apiUrl}');
       final response = await http.put(Uri.parse(apiUrl));
       print(response.statusCode);
       if (response.statusCode == 200) {
@@ -73,13 +75,13 @@ class _ManBillingPageState extends State<ManBillingPage> {
         "body": "Payment done",
         "title": "Payment done",
         "senderId": GlobalConstant.userID,
-        "receiverId": widget.employerid ,
+        "receiverId": widget.employerId ,
         "category": "",
         "job_desc": "",
         "siteLocation": "",
         "explainYourWork": "",
         "date": "",
-        "orderId": widget.orderid
+        "orderId": widget.orderId
       });
 
       var headers = {
@@ -94,17 +96,6 @@ class _ManBillingPageState extends State<ManBillingPage> {
 
       if (response.statusCode == 200) {
        print('done dana done');
-
-       // await clearAllFunction();
-        // ismanMapPage = false;
-        // ismanOtpPage = false;
-        // isEmpDedectPage = false;
-        // isEmpMapPage = false;
-        // isEmpOtpPage = false;
-        // Navigator.pushReplacement(
-        //     ctx,
-        //     MaterialPageRoute(
-        //         builder: (context) =>  EmpPaymentSucce(manpowerid: widget.manpowerid,)));
       }
     } catch (e) {
       print(e.toString());
@@ -112,7 +103,7 @@ class _ManBillingPageState extends State<ManBillingPage> {
   }
 
   Future getBillData() async {
-    isEmpDedectPage = false;
+    isEmpDetectPage = false;
     isEmpMapPage = false;
     isEmpOtpPage = false;
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -125,7 +116,7 @@ class _ManBillingPageState extends State<ManBillingPage> {
       try {
         var resp = jsonDecode(ordrsp);
         orderIdResp = resp['updatedOrderData'];
-        calculateTimeDefference(startTime, widget.endtime!);
+        calculateTimeDifference(startTime, widget.endTime!);
       } catch (e) {
         print("Error decoding JSON: $e");
       }
@@ -140,7 +131,7 @@ class _ManBillingPageState extends State<ManBillingPage> {
     }
   }
 
-  calculateTimeDefference(String startTimeStr, String endTimeStr) {
+  calculateTimeDifference(String startTimeStr, String endTimeStr) {
     DateTime startTime = DateTime.parse(startTimeStr);
     DateTime endTime = DateTime.parse(endTimeStr);
     int timeDifferenceInSeconds = endTime.difference(startTime).inSeconds;
@@ -188,7 +179,6 @@ bool paymentReceived = false;
   @override
   Widget build(BuildContext context) {
     var mediaQuery = MediaQuery.of(context);
-     print('empidddd::: ${widget.employerid}');
 
     return Scaffold(
       appBar: AppBar(
@@ -244,7 +234,7 @@ bool paymentReceived = false;
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          buildInfoRow("End Time", widget.endtime!),
+                          buildInfoRow("End Time", widget.endTime!),
                         ],
                       ),
                     ],
@@ -340,7 +330,7 @@ bool paymentReceived = false;
         height: MediaQuery.of(context).size.height * 0.5, 
         width: MediaQuery.of(context).size.height * 0.7,// Set the desired height
         child: SingleChildScrollView(
-          child: RatingFeedbackPage(employerid : widget.employerid ),
+          child: RatingFeedbackPage(employerId : widget.employerId ),
         ),
       ),
     );
@@ -367,11 +357,10 @@ bool paymentReceived = false;
 
 class RatingFeedbackPage extends StatefulWidget {
 
-  @override
-    final String? employerid;
+  final String? employerId;
 
 
-  RatingFeedbackPage({required this.employerid, Key? key}) : super(key: key);
+  RatingFeedbackPage({required this.employerId, Key? key}) : super(key: key);
 
   _RatingFeedbackPageState createState() => _RatingFeedbackPageState();
 }
@@ -381,9 +370,8 @@ class _RatingFeedbackPageState extends State<RatingFeedbackPage> {
   final TextEditingController _feedbackController = TextEditingController();
 
   void sendFeedbackToBackend() async {
-    print('iddd: ${widget.employerid}');
     final givenBy = GlobalConstant.userID;
-    final givenTo = widget.employerid;
+    final givenTo = widget.employerId;
     final rating = selectedRating;
     final comments = _feedbackController.text;
 

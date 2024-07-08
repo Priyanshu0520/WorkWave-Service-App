@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-2 /Users/sahi/.gradle/caches/transforms-3/32408ffa351eb3783a11340c8cd6d85f/transformed/media-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-3 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-4 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 /Users/sahi/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.1.2/android/src/main/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 /Users/sahi/.pub-cache/hosted/pub.dev/flutter_local_notifications-17.1.2/android/src/release/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/generated/res/pngs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/generated/res/resValues/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/generated/res/rs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/intermediates/merged_res/release

@@ -73,7 +73,7 @@ class _ManDiscriptionScreenState extends State<ManDiscriptionScreen> {
         isEmpOtpPage = false;
         manStartWork.value = false;
         manExtantTime.value = false;
-        isEmpDedectPage = false;
+        isEmpDetectPage = false;
       } else {
         print(response.body);
       }

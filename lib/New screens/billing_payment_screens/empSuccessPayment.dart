@@ -1,4 +1,5 @@
-import 'dart:async';
+// ignore_for_file: must_be_immutable
+
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
@@ -7,15 +8,15 @@ import 'package:wayforce/new%20utils/colors.dart';
 import 'package:wayforce/new%20utils/const.dart';
 import 'package:wayforce/new_services/global_constants.dart';
 
-class EmpPaymentSucce extends StatefulWidget {
-  String? manpowerid;
-   EmpPaymentSucce({ this.manpowerid , super.key});
+class EmpPaymentSuccess extends StatefulWidget {
+  String? manpowerId;
+   EmpPaymentSuccess({ this.manpowerId , super.key});
 
   @override
-  State<EmpPaymentSucce> createState() => _EmpPaymentSucceState();
+  State<EmpPaymentSuccess> createState() => _EmpPaymentSuccessState();
 }
 
-class _EmpPaymentSucceState extends State<EmpPaymentSucce> {
+class _EmpPaymentSuccessState extends State<EmpPaymentSuccess> {
   @override
   void initState() {
     super.initState();
@@ -51,9 +52,9 @@ class _EmpPaymentSucceState extends State<EmpPaymentSucce> {
   ),
   onPressed: () async {
     await clearAllFunction();
-    ismanMapPage = false;
-    ismanOtpPage = false;
-    isEmpDedectPage = false;
+    isManMapPage = false;
+    isManOtpPage = false;
+    isEmpDetectPage = false;
     isEmpMapPage = false;
     isEmpOtpPage = false;
 
@@ -68,7 +69,7 @@ class _EmpPaymentSucceState extends State<EmpPaymentSucce> {
         height: MediaQuery.of(context).size.height * 0.5, 
         width: MediaQuery.of(context).size.height * 0.7,// Set the desired height
         child: SingleChildScrollView(
-          child: RatingFeedbackPage(manpowerid: widget.manpowerid),
+          child: RatingFeedbackPage(manpowerId: widget.manpowerId),
         ),
       ),
     );
@@ -96,10 +97,9 @@ class _EmpPaymentSucceState extends State<EmpPaymentSucce> {
 
 class RatingFeedbackPage extends StatefulWidget {
 
-  @override
-    final String? manpowerid;
+  final String? manpowerId;
 
-  RatingFeedbackPage({required this.manpowerid, Key? key}) : super(key: key);
+  RatingFeedbackPage({required this.manpowerId, Key? key}) : super(key: key);
 
   _RatingFeedbackPageState createState() => _RatingFeedbackPageState();
 }
@@ -110,7 +110,7 @@ class _RatingFeedbackPageState extends State<RatingFeedbackPage> {
 
   void sendFeedbackToBackend() async {
     final givenBy = GlobalConstant.userID;
-    final givenTo = widget.manpowerid;
+    final givenTo = widget.manpowerId;
     final rating = selectedRating;
     final comments = _feedbackController.text;
 

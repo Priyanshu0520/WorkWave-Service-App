@@ -138,12 +138,12 @@ class _EmployerMyProjectState extends State<EmployerMyProject> {
                                   MaterialPageRoute(
                                       builder: (context) =>
                                            EmployeTrack(
-                                            orderprice: order.bookedPayment ??"",
-                                            orderworkdetail: order.explainYourWork??"",
-                                            orderworkinghrs: order.workingHours??"",
-                                            orderlocation: order.siteLocation??"" ,
-                                            orderotp: order.otpSendToEmployer??"",
-                                             ordercategory: order.category??"", manpowerid: order.manpowerId??"", orderid: order.orderId??"", orderlat: order.lati??"", orderlongi: order.longi??"")));
+                                            orderPrice: order.bookedPayment ??"",
+                                            orderWorkDetails: order.explainYourWork??"",
+                                            orderWorkingHours: order.workingHours??"",
+                                            orderLocation: order.siteLocation??"" ,
+                                            orderOtp: order.otpSendToEmployer??"",
+                                             orderCategory: order.category??"", manpowerId: order.manpowerId??"", orderId: order.orderId??"", orderLat: order.lati??"", orderLong: order.longi??"")));
           
                                    }else if(order.startTime.isNotEmpty&& order.endTime.isNotEmpty&& order.orderStatus =='Ongoing'&&order.paymentStatus =='Pending'){
                                     // print('end empty');
@@ -157,7 +157,7 @@ class _EmployerMyProjectState extends State<EmployerMyProject> {
                                             orderworkinghrs: order.workingHours??"",
                                             orderlocation: order.siteLocation??"" ,
                                             orderotp: order.otpSendToEmployer??"",
-                                             ordercategory: order.category??"", manpowerid: order.manpowerId??"", orderid: order.orderId??"", orderlat: order.lati??"", orderlongi: order.longi??"")
+                                             orderCategory: order.category??"", manpowerId: order.manpowerId??"", orderId: order.orderId??"", orderlat: order.lati??"", orderlongi: order.longi??"")
                                           ));
                                    }else if(order.startTime.isNotEmpty&& order.endTime.isNotEmpty&&  order.orderStatus =='Completed'){
                                     //  print('both not empty');
@@ -167,7 +167,7 @@ class _EmployerMyProjectState extends State<EmployerMyProject> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (context) =>
-                                           EmpBillingPageIn(newOrderId: order.orderId??"",
+                                           EmpBillingPage(newOrderId: order.orderId??"",
                                            category: order.category??"",
                                            )));
                           

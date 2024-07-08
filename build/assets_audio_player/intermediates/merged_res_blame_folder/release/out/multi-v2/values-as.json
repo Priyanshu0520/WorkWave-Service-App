@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.github.florent37.assets_audio_player-mergeReleaseResources-17:/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/b2ed5967d8c594c9d3c777d4b7ce4585/transformed/core-1.7.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.github.florent37.assets_audio_player-merged_res-19:/values-as/values-as.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/b2ed5967d8c594c9d3c777d4b7ce4585/transformed/core-1.7.0/res/values-as/values-as.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

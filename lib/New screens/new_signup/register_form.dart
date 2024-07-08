@@ -139,7 +139,7 @@ Future<void> _pickAadharCard() async {
     await CategoryService.fetchCategories();
     setState(() {
       categoryNames = CategoryService.getCategoryNames();
-      categoryid =CategoryService.getCategoryid();
+      categoryid =CategoryService.getCategoryId();
       print('catttttttttt');
     });
   }

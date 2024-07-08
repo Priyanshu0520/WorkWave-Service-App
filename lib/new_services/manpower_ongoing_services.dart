@@ -11,7 +11,7 @@ class ManOngoingOrdersProvider extends ChangeNotifier {
 
   List<ManOngoingOrder> get ongoingOrders => _ongoingOrders;
 
-  Future<List<ManOngoingOrder>> fetchOngoingOrdersman(BuildContext context) async {
+  Future<List<ManOngoingOrder>> fetchOngoingOrdersMan(BuildContext context) async {
     try {
       String? userData = await SharedPreferencesHelper.getUserData();
 
@@ -76,7 +76,7 @@ class ManOngoingOrder {
   final String category;
   final String explainYourWork;
   final double lati;
-  final double longi;
+  final double long;
   final String instantOrdirect;
   final String orderId;
   final int? workingHours;
@@ -96,7 +96,7 @@ class ManOngoingOrder {
     required this.category,
     required this.explainYourWork,
     required this.lati,
-    required this.longi,
+    required this.long,
     required this.instantOrdirect,
     required this.orderId,
     required this.workingHours,
@@ -128,7 +128,7 @@ class ManOngoingOrder {
       category: json['category'],
       explainYourWork: json['explainYourWork'],
       lati: json['lati'].toDouble(),
-      longi: json['longi'].toDouble(),
+      long: json['longi'].toDouble(),
       instantOrdirect: json['instantOrdirect'],
       orderId: json['orderId'],
       workingHours: parseNullableInt(json['workingHours']),

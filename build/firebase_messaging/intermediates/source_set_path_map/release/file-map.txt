@@ -1,0 +1,18 @@
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-play-services-basement-18.3.0-0 /Users/sahi/.gradle/caches/transforms-3/0816ada7e5ed4ae40432fa66a0603b89/transformed/jetified-play-services-basement-18.3.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-window-java-1.0.0-beta04-1 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-annotation-experimental-1.1.0-2 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-firebase-messaging-24.0.0-3 /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-firebase-common-21.0.0-4 /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-localbroadcastmanager-1.1.0-5 /Users/sahi/.gradle/caches/transforms-3/3468f3184b835b4d5e098927c70cec36/transformed/localbroadcastmanager-1.1.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-play-services-base-18.0.1-6 /Users/sahi/.gradle/caches/transforms-3/8060ea8d4b74d3fd3883243b51d3f7fd/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-window-1.0.0-beta04-7 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-core-1.6.0-8 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-main-9 /Users/sahi/.pub-cache/hosted/pub.dev/firebase_messaging-15.0.1/android/src/main/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-release-10 /Users/sahi/.pub-cache/hosted/pub.dev/firebase_messaging-15.0.1/android/src/release/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-packaged_res-11 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-pngs-12 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/generated/res/pngs/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-resValues-13 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/generated/res/resValues/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-rs-14 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/generated/res/rs/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-mergeReleaseResources-15 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.messaging.firebase_messaging-mergeReleaseResources-16 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.messaging.firebase_messaging-merged_res-17 /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_res/release

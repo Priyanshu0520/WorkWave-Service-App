@@ -1,3 +1,5 @@
+// ignore_for_file: unused_field
+
 import 'dart:async';
 import 'dart:convert';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -7,12 +9,10 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wayforce/main.dart';
 import 'package:wayforce/new%20utils/colors.dart';
 import 'package:wayforce/new%20utils/const.dart';
 import 'package:wayforce/new_services/manpower_ongoing_services.dart';
-
 import '../../../new utils/utils.dart';
 import '../../../new_services/UserInfo/man_info_services.dart';
 import '../../../new_services/firebase/new_local_notification.dart';
@@ -22,7 +22,6 @@ import '../../../shared_pref_service.dart';
 import '../../TrackPage/manpower_timer_page.dart';
 import '../../TrackPage/manpower_track_page.dart';
 import '../../billing_payment_screens/manPowerBillingScreen.dart';
-import '../Employer_Home/emp_home.dart';
 
 class ManPowerHomePage extends StatefulWidget {
   const ManPowerHomePage({Key? key}) : super(key: key);
@@ -42,7 +41,7 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging.instance;
  ManpowerUserService _manpowerUserService = ManpowerUserService();
   Map<String, dynamic>? manpowerUserData;
-  List<dynamic> instantongoing = [];
+  List<dynamic> instantOngoing = [];
   final List<String> data = [];
   String orderId = '';
   String onGoingOrder = '';
@@ -63,7 +62,7 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
     _initFirebaseMessaging();
       fetchManpowerUserData();
        Provider.of<ManOngoingOrdersProvider>(context, listen: false)
-        .fetchOngoingOrdersman(context);
+        .fetchOngoingOrdersMan(context);
         _controller = AnimationController(
       vsync: this,
       duration: Duration(seconds: 4), // Adjust the duration as needed
@@ -96,12 +95,12 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
   }
 
   handleBackgroundClick() async {
-    var allfirebaseBackgroundNotificationData =
+    var allFirebaseBackgroundNotificationData =
         await SharedPreferencesHelper.getBackgroundNotificationData();
-    if (allfirebaseBackgroundNotificationData != null &&
-        allfirebaseBackgroundNotificationData.length > 0) {
+    if (allFirebaseBackgroundNotificationData != null &&
+        allFirebaseBackgroundNotificationData.length > 0) {
       var savedFirebaseBackgroundNotificationData =
-          jsonDecode(allfirebaseBackgroundNotificationData);
+          jsonDecode(allFirebaseBackgroundNotificationData);
 
       NewPushNotification().showNewNotification(
           globalNavigatorKey.currentContext,
@@ -172,7 +171,7 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
                     onMapCreated: (controller) => _mapController = controller,
                     initialCameraPosition: CameraPosition(
                       
-            target: _initialPosition ?? LatLng(0.0, 0.0),
+            target: _initialPosition,
             zoom: 10.0,
                     ),
                     myLocationEnabled: true, // Show user's location on the map
@@ -379,7 +378,7 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
                       padding: const EdgeInsets.all(15.0),
                       child: FutureBuilder<List<ManOngoingOrder>>(
                         future: Provider.of<ManOngoingOrdersProvider>(context)
-                            .fetchOngoingOrdersman(context),
+                            .fetchOngoingOrdersMan(context),
                         builder: (context, snapshot) {
                           if (snapshot.connectionState ==
                               ConnectionState.waiting) {
@@ -406,23 +405,23 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
                                             MaterialPageRoute(
                                                 builder: (context) =>
                                                     ManpowerTrack(
-                                                      orderprice:
+                                                      orderPrice:
                                                           order.bookedPayment,
-                                                      orderworkdetail:
+                                                      orderWorkDetail:
                                                           order.explainYourWork,
-                                                      orderworkinghrs:
+                                                      orderWorkingHour:
                                                           order.workingHours,
-                                                      orderlocation:
+                                                      orderLocation:
                                                           order.siteLocation,
-                                                      orderotp:
+                                                      orderOtp:
                                                           order.otpSendToEmployer,
-                                                      ordercategory:
+                                                      orderCategory:
                                                           order.category,
-                                                      employerid:
+                                                      employerId:
                                                           order.employerId,
-                                                      orderid: order.orderId,
-                                                      orderlat: order.lati,
-                                                      orderlongi: order.longi,
+                                                      orderId: order.orderId,
+                                                      orderLat: order.lati,
+                                                      orderLong: order.long,
                                                     )));
                                       } else if (order.startTime.isNotEmpty &&
                                               order.endTime.isNotEmpty &&
@@ -438,39 +437,34 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
                                             MaterialPageRoute(
                                                 builder: (context) =>
                                                     ManpowerTimerPage(
-                                                        orderprice:
+                                                        orderPrice:
                                                             order.bookedPayment,
-                                                        orderworkdetail:
+                                                        orderWorkDetail:
                                                             order.explainYourWork,
-                                                        orderworkinghrs:
+                                                        orderWorkingHour:
                                                             order.workingHours,
-                                                        orderlocation:
+                                                        orderLocation:
                                                             order.siteLocation,
-                                                        orderotp: order
+                                                        orderOtp: order
                                                             .otpSendToEmployer,
-                                                        ordercategory:
+                                                        orderCategory:
                                                             order.category,
-                                                        employerid:
+                                                        employerId:
                                                             order.employerId,
-                                                        orderid: order.orderId,
-                                                        orderlat: order.lati,
-                                                        orderlongi:
-                                                            order.longi)));
+                                                        orderId: order.orderId,
+                                                        orderLat: order.lati,
+                                                        orderLong:
+                                                            order.long)));
                                       } else if (order.startTime.isNotEmpty &&
                                           order.endTime.isNotEmpty &&
                                           order.orderStatus == 'Completed') {
-                                        //  print('both not empty');
-                                        //  print('payment status${order.paymentStatus}');
-             
-                                        // print(
-                                        //     'Navigating to ManBillingPage');
                                         Navigator.push(
                                           context,
                                           MaterialPageRoute(
                                             builder: (context) => ManBillingPage(
-                                                 orderid: order.orderId,
-                                                 employerid: order.employerId,
-                                                endtime: order.endTime),
+                                                 orderId: order.orderId,
+                                                 employerId: order.employerId,
+                                                endTime: order.endTime),
                                           ),
                                         );
                                       }
@@ -647,16 +641,16 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
           desiredAccuracy: LocationAccuracy.high,
         );
 
-        List<Placemark> placemarks = await placemarkFromCoordinates(
+        List<Placemark> placeMarks = await placemarkFromCoordinates(
           position.latitude,
           position.longitude,
         );
 
-        if (placemarks.isNotEmpty) {
-          Placemark placemark = placemarks[0];
+        if (placeMarks.isNotEmpty) {
+          Placemark placeMark = placeMarks[0];
           setState(() {
             locationName =
-                '${placemark.subLocality ?? 'Unknown'}, ${placemark.locality ?? 'Unknown'}';
+                '${placeMark.subLocality ?? 'Unknown'}, ${placeMark.locality ?? 'Unknown'}';
             latitude = position.latitude;
             longitude = position.longitude;
             _currentLocation = position;
@@ -676,64 +670,6 @@ class _ManPowerHomePageState extends State<ManPowerHomePage> with SingleTickerPr
     }
   }
 
-
-
-//  void _initBackgroundLocation() async {
-//   try {
-//     await BackgroundLocation.setAndroidNotification(
-//       title: 'Location Updates',
-//       message: 'Background location updates are active.',
-//       icon: '@mipmap/ic_launcher',
-//     );
-
-//     await BackgroundLocation.startLocationService();
-
-//     BackgroundLocation.getLocationUpdates((location) async {
-//       print('Background location: $location');
-//       double lat = location.latitude!;
-//       double long = location.longitude!;
-
-//       List<Placemark> placemarks = await placemarkFromCoordinates(latitude, longitude);
-//       if (placemarks.isNotEmpty) {
-//         Placemark placemark = placemarks[0];
-//         String subLocality = placemark.subLocality ?? 'Unknown';
-//         String locality = placemark.locality ?? 'Unknown';
-//         String locationName = '$subLocality, $locality';
-//         print('Location Name: $locationName');
-//            setState(() {
-//             locationName =
-//                 '${placemark.subLocality ?? 'Unknown'}, ${placemark.locality ?? 'Unknown'}';
-//             latitude = lat;
-//             longitude = long;
-            
-//          //   _updateMarkers();
-          
-//           });
-//           await sendManpowerCurrentLocationBackend(
-//               latitude, longitude, locationName);
-//       } else {
-//         print('No location found');
-//       }
-//     });
-//   } catch (e) {
-//     print('Error initializing background location: $e');
-//   }
-// }
-
-
-  // void _updateMarkers() {
-  //   _markers.clear();
-  //   if (_currentLocation != null) {
-  //     _markers.add(
-  //       Marker(
-  //         markerId: const MarkerId("currentLocation"),
-  //         position:
-  //             LatLng(_currentLocation!.latitude, _currentLocation!.longitude),
-  //         infoWindow: const InfoWindow(title: "Your Location"),
-  //       ),
-  //     );
-  //   }
-  // }
 
   Future<void> sendManpowerCurrentLocationBackend(
       double latitude, double longitude, String locationName) async {

@@ -17,31 +17,31 @@ import 'emp_description_screen.dart';
 import 'emp_timer_page.dart';
 
 class EmployeTrack extends StatefulWidget {
-  var manpowerid;
-  var orderid;
-  var orderlat;
-  var orderlongi;
-  var ordercategory;
-  var orderotp;
+  var manpowerId;
+  var orderId;
+  var orderLat;
+  var orderLong;
+  var orderCategory;
+  var orderOtp;
 
-  var orderlocation;
-  var orderprice;
-  var orderworkinghrs;
+  var orderLocation;
+  var orderPrice;
+  var orderWorkingHours;
   var sitelocation;
-  var orderworkdetail;
+  var orderWorkDetails;
   EmployeTrack(
       {
-      required this.manpowerid,
-      this.orderid,
-      this.orderlat,
-      this.orderlongi,
-      this.ordercategory,
-      this.orderotp,
-      this.orderlocation,
-      this.orderprice,
-      this.orderworkinghrs,
+      required this.manpowerId,
+      this.orderId,
+      this.orderLat,
+      this.orderLong,
+      this.orderCategory,
+      this.orderOtp,
+      this.orderLocation,
+      this.orderPrice,
+      this.orderWorkingHours,
       this.sitelocation,
-      this.orderworkdetail,
+      this.orderWorkDetails,
       super.key});
 
   @override
@@ -63,7 +63,7 @@ class EmployeTrackState extends State<EmployeTrack> {
 
   @override
   void initState() {
-    print(widget.orderid);
+    print(widget.orderId);
    
     super.initState();
     getData();
@@ -75,7 +75,7 @@ class EmployeTrackState extends State<EmployeTrack> {
   }
   bool isApiCallActive = true;
    Future<void> fetchDataFromAPI() async {
-    var id = widget.orderid; // Make sure to have access to the orderid
+    var id = widget.orderId; // Make sure to have access to the orderid
       while (isApiCallActive){final response = await http.get(Uri.parse(
         'https://workwave-backend.vercel.app/api/v1/employer/getStartEmdTimeByOrderId/$id'));
 
@@ -92,16 +92,16 @@ class EmployeTrackState extends State<EmployeTrack> {
         context,
         MaterialPageRoute(
           builder: (context) => EmpTimerPage(
-            orderprice: widget.orderprice,
-            orderworkdetail: widget.orderworkdetail,
-            orderworkinghrs: widget.orderworkinghrs,
-            orderlocation: widget.orderlocation ,
-            orderotp: widget.orderotp,
-            ordercategory: widget.ordercategory,
-            manpowerid: widget.manpowerid,
-            orderid: widget.orderid,
-            orderlat: widget.orderlat,
-            orderlongi: widget.orderlongi,
+            orderprice: widget.orderPrice,
+            orderworkdetail: widget.orderWorkDetails,
+            orderworkinghrs: widget.orderWorkingHours,
+            orderlocation: widget.orderLocation ,
+            orderotp: widget.orderOtp,
+            orderCategory: widget.orderCategory,
+            manpowerId: widget.manpowerId,
+            orderId: widget.orderId,
+            orderlat: widget.orderLat,
+            orderlongi: widget.orderLong,
           ),
         ),
       );
@@ -151,14 +151,14 @@ class EmployeTrackState extends State<EmployeTrack> {
 
   Future<bool> _getOrderDetailsStatus() async {
     bool sts = false;
-    var id = widget.orderid;
+    var id = widget.orderId;
     try {
       var response = await http.get(Uri.parse(
           "https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$id"));
       var json = jsonDecode(response.body);
 
       setState(() {
-        passordid = widget.orderid;
+        passordid = widget.orderId;
         print('pasoid : ${passordid}');
       });
       if (response.statusCode == 200) {
@@ -224,7 +224,7 @@ class EmployeTrackState extends State<EmployeTrack> {
   bool timeOver = false;
   Future _getOrderDetails() async {
     try {
-      var id = widget.orderid;
+      var id = widget.orderId;
       print('30');
       var orderId;
           var url ="https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$id";
@@ -235,8 +235,8 @@ class EmployeTrackState extends State<EmployeTrack> {
       var json = jsonDecode(response.body);
 
       if (response.statusCode == 200) {
-        var lat = widget.orderlat;
-        var long = widget.orderlongi;
+        var lat = widget.orderLat;
+        var long = widget.orderLong;
          setState(() {
               empLat = lat;
               empLong = long;
@@ -324,7 +324,7 @@ class EmployeTrackState extends State<EmployeTrack> {
   Future<void> getdataofmanpower() async {
     try {
       // String id = manPoerId;
-      var id = widget.manpowerid;
+      var id = widget.manpowerId;
       final apiUrl = 'https://workwave-backend.vercel.app/api/v1/manpower/$id';
       print(apiUrl);
       print('7');
@@ -393,9 +393,7 @@ class EmployeTrackState extends State<EmployeTrack> {
   final destination = '$empLat,$empLong';
     final response = await http.get(Uri.parse(
         'https://maps.googleapis.com/maps/api/directions/json?origin=$origin&destination=$destination&departure_time=now&key=$apiKey'));
-  print('nhiiiiiiiiiiiiiiiiiiiiiiiiiiii');
     if (response.statusCode == 200) {
-      print('dattttttttttttttttttttttttt');
       final decoded = json.decode(response.body);
       final routes = decoded['routes'];
       if (routes.isNotEmpty) {
@@ -426,9 +424,9 @@ class EmployeTrackState extends State<EmployeTrack> {
       polylineCoordinates.clear();
     }
     try {
-      var empLatitude = widget.orderlat;
+      var empLatitude = widget.orderLat;
       print('emplat ${empLong}');
-      var empLongitude = widget.orderlongi;
+      var empLongitude = widget.orderLong;
 
       double startLatitude = manLat;
       double startLongitude = manLong;
@@ -587,8 +585,8 @@ class EmployeTrackState extends State<EmployeTrack> {
     var mediaQuery = MediaQuery.of(context);
     var _dis = _distance.toStringAsFixed(2);
     print('jai hoo ${manPowerdata?['experience']}');
-    print('iddd :  ${widget.orderid}');
-    print(widget.manpowerid);
+    print('iddd :  ${widget.orderId}');
+    print(widget.manpowerId);
     return Scaffold(
         appBar: AppBar(
           leading: IconButton(
@@ -730,7 +728,7 @@ class EmployeTrackState extends State<EmployeTrack> {
                               Center(
                                 child: Text(
                                   manPowerdata != null
-                                      ? widget.ordercategory ?? ''
+                                      ? widget.orderCategory ?? ''
                                       : "",
                                   style: TextStyle(
                                     fontWeight: FontWeight.w500,
@@ -743,7 +741,7 @@ class EmployeTrackState extends State<EmployeTrack> {
                               ),
                               Center(
                                 child: Text(
-                                  'OTP :- ${widget.orderotp}',
+                                  'OTP :- ${widget.orderOtp}',
                                   style: TextStyle(
                                     fontWeight: FontWeight.w500,
                                     fontSize: mediaQuery.size.width * 0.04,
@@ -857,14 +855,14 @@ class EmployeTrackState extends State<EmployeTrack> {
    
                                           
                                           manpowername: manPowerdata?['name'] ?? '',
-                                            orderid: widget.orderid,
-                                            manpowerid: widget.manpowerid,
-                                            orderlocation: widget.orderlocation,
-                                            orderprice: widget.orderprice,
+                                            orderid: widget.orderId,
+                                            manpowerid: widget.manpowerId,
+                                            orderlocation: widget.orderLocation,
+                                            orderprice: widget.orderPrice,
                                             orderworkdetail:
-                                                widget.orderworkdetail,
+                                                widget.orderWorkDetails,
                                             orderworkinghrs:
-                                               widget.orderworkinghrs,
+                                               widget.orderWorkingHours,
                                             manworkexp:
                                                 manPowerdata?['experience'] ??
                                                     '',

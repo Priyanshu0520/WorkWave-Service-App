@@ -1,0 +1,16 @@
+com.abhimortal6.simple_s3-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.abhimortal6.simple_s3-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.abhimortal6.simple_s3-jetified-window-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-core-2.16.6-3 /Users/sahi/.gradle/caches/transforms-3/93e852619c906342cc16e4972affcfe0/transformed/jetified-aws-android-sdk-auth-core-2.16.6/res
+com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4 /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/res
+com.abhimortal6.simple_s3-jetified-aws-android-sdk-mobile-client-2.16.6-5 /Users/sahi/.gradle/caches/transforms-3/b53b6b257bff143b0abe115b91b22a88/transformed/jetified-aws-android-sdk-mobile-client-2.16.6/res
+com.abhimortal6.simple_s3-core-1.6.0-6 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-ui-2.6.10-7 /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/res
+com.abhimortal6.simple_s3-main-8 /Users/sahi/.pub-cache/hosted/pub.dev/simple_s3-0.3.2/android/src/main/res
+com.abhimortal6.simple_s3-release-9 /Users/sahi/.pub-cache/hosted/pub.dev/simple_s3-0.3.2/android/src/release/res
+com.abhimortal6.simple_s3-pngs-10 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/generated/res/pngs/release
+com.abhimortal6.simple_s3-resValues-11 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/generated/res/resValues/release
+com.abhimortal6.simple_s3-rs-12 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/generated/res/rs/release
+com.abhimortal6.simple_s3-mergeReleaseResources-13 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.abhimortal6.simple_s3-mergeReleaseResources-14 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.abhimortal6.simple_s3-merged_res-15 /Users/sahi/Downloads/WorkWave Service App/build/simple_s3/intermediates/merged_res/release

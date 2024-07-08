@@ -1,4 +1,4 @@
-// ignore_for_file: unused_local_variable
+// ignore_for_file: unused_local_variable, unused_element
 
 import 'dart:async';
 import 'dart:convert';
@@ -52,8 +52,8 @@ class NewPushNotification {
     print(data);
 
     Future<void> clearPrefBackgroundData() async {
-      SharedPreferences prefrences = await SharedPreferences.getInstance();
-      await prefrences.remove("firebaseBackgroundNotificationData");
+      SharedPreferences preferences = await SharedPreferences.getInstance();
+      await preferences.remove("firebaseBackgroundNotificationData");
     }
     await clearPrefBackgroundData();
 
@@ -114,7 +114,7 @@ class NewPushNotification {
       );
     }
 
-if(notificationBody == "Cancle By Employer" ){
+if(notificationBody == "Cancel By Employer" ){
       if(GlobalConstant.notificationPopupDisplayed == true){
         GlobalConstant.notificationPopupDisplayed = false;
         Navigator.of(_context).pop(); // dismiss firstly opened accept reject dialog
@@ -136,7 +136,7 @@ if(notificationBody == "Cancle By Employer" ){
           return AlertDialog(
             surfaceTintColor: AppColors.blackShadow,
             title: Text(
-              "Cancle By Employer",
+              "Cancel By Employer",
               style: SafeGoogleFont(
                 'Roboto',
                 fontSize: mediaQuery.size.width * 0.05,
@@ -476,7 +476,6 @@ void cancelTimer() {
                           'https://workwave-backend.vercel.app//api/v1/employer/getStartEmdTimeByOrderId/$orderId'; //
 
                       try {
-                        print('urrlllrr${apiUrl}');
                         final response = await http.get(Uri.parse(apiUrl));
 
                         if (response.statusCode == 200) {
@@ -515,16 +514,16 @@ void cancelTimer() {
                       context,
                       MaterialPageRoute(
                         builder: (context) => EmployeTrack(
-                          manpowerid: manpowerId,
-                          orderprice: GlobalConstant.instantprice,
-                          ordercategory: GlobalConstant.instantHireCategory,
-                          orderotp: otp,
-                          orderid: GlobalConstant.instantHireOrderId,
-                          orderlat: GlobalConstant.instantHireLat,
-                          orderlongi: GlobalConstant.instantHireLong,
-                          orderworkinghrs: GlobalConstant.instantHireWorkingHrs,
-                          orderlocation: GlobalConstant.instantHirePlace,
-                          orderworkdetail: GlobalConstant.instantHireWork,
+                          manpowerId: manpowerId,
+                          orderPrice: GlobalConstant.instantPrice,
+                          orderCategory: GlobalConstant.instantHireCategory,
+                          orderOtp: otp,
+                          orderId: GlobalConstant.instantHireOrderId,
+                          orderLat: GlobalConstant.instantHireLat,
+                          orderLong: GlobalConstant.instantHireLong,
+                          orderWorkingHours: GlobalConstant.instantHireWorkingHrs,
+                          orderLocation: GlobalConstant.instantHirePlace,
+                          orderWorkDetails: GlobalConstant.instantHireWork,
                         ),
                       ),
                     );
@@ -590,7 +589,6 @@ void cancelTimer() {
       );
     }
 
-    //notifify for  cancllation charge
 
      if (notificationTitle == "You have been informed of a cancellation fee of Rs. 25.") {
       // if (GlobalConstant.notificationPopupDisplayed == true) {
@@ -642,7 +640,6 @@ void cancelTimer() {
         },
       );
     }
-    ///low wallet balnace alert for manpower
     ///
     ///
      if (notificationTitle == "Low Wallet Balance Alert") {
@@ -1095,9 +1092,9 @@ void cancelTimer() {
                       }
                     }
 
-                    String otpformanpower = await getOtpSendToManpower(
+                    String otpForManpower = await getOtpSendToManpower(
                        orderId );
-                        Future<String> employeridget(String orderId) async {
+                        Future<String> getEmployerId(String orderId) async {
                       final apiUrl =
                           'https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$orderId';
 
@@ -1123,15 +1120,15 @@ void cancelTimer() {
                       }
                     }
 
-                    String employerid = await employeridget(
+                    String employerId = await getEmployerId(
                        orderId );
   Navigator.push(
                   context,
                   MaterialPageRoute(
                       builder: (context) => ManpowerTrack(
-                            orderid: orderId,
-                            orderotp: otpformanpower,
-                            employerid:employerid ,
+                            orderId: orderId,
+                            orderOtp: otpForManpower,
+                            employerId:employerId ,
                           )));
           } else if (response.statusCode == 400) {
             print(response);

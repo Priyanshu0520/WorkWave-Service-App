@@ -1,0 +1,14 @@
+io.flutter.plugins.urllauncher.url_launcher_android-lifecycle-runtime-2.3.1-0 /Users/sahi/.gradle/caches/transforms-3/0aa2cd3212b40b7ae00ee9fe4f071f83/transformed/lifecycle-runtime-2.3.1/res
+io.flutter.plugins.urllauncher.url_launcher_android-browser-1.5.0-1 /Users/sahi/.gradle/caches/transforms-3/137c34712303ed4429eca8795130a3fe/transformed/browser-1.5.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-java-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-annotation-experimental-1.3.0-3 /Users/sahi/.gradle/caches/transforms-3/4a661a766a6f54e217b96ad50eacfd54/transformed/jetified-annotation-experimental-1.3.0/res
+io.flutter.plugins.urllauncher.url_launcher_android-core-1.10.1-4 /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/res
+io.flutter.plugins.urllauncher.url_launcher_android-jetified-window-1.0.0-beta04-5 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.urllauncher.url_launcher_android-main-6 /Users/sahi/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.2/android/src/main/res
+io.flutter.plugins.urllauncher.url_launcher_android-release-7 /Users/sahi/.pub-cache/hosted/pub.dev/url_launcher_android-6.3.2/android/src/release/res
+io.flutter.plugins.urllauncher.url_launcher_android-pngs-8 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/generated/res/pngs/release
+io.flutter.plugins.urllauncher.url_launcher_android-resValues-9 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/generated/res/resValues/release
+io.flutter.plugins.urllauncher.url_launcher_android-rs-10 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/generated/res/rs/release
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-11 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.urllauncher.url_launcher_android-mergeReleaseResources-12 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.urllauncher.url_launcher_android-merged_res-13 /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/merged_res/release

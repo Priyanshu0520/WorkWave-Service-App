@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_up_in.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_up_in.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_popup_enter.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_fade_out.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_fade_out.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_enter.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_enter.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_anim_fade_in.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_anim_fade_in.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_fade_out.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_loader_circle_scale.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_loader_circle_scale.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_fade_in.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_fade_in.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_checked_icon_null_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_checked_icon_null_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_album_dismiss.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_album_dismiss.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_slide_in_bottom.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_popup_exit.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_unchecked_icon_null_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_off_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_modal_in.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_modal_in.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_slide_out_top.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_slide_in_top.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_loader_circle_path.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_loader_circle_path.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_slide_out_bottom.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_fade_in.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_down_out.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_down_out.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_anticipate_interpolator.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_anticipate_interpolator.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_tooltip_enter.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_tooltip_enter.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_modal_out.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_modal_out.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_album_show.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_album_show.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_close.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_close.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/abc_tooltip_exit.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_layout_animation_fall_down.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_layout_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_overshoot_interpolator.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_overshoot_interpolator.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/ucrop_item_animation_fall_down.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/ucrop_item_animation_fall_down.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/picture_anim_exit.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/anim/picture_anim_exit.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml",
+        "source": "com.chavesgu.images_picker-appcompat-1.3.1-5:/anim/btn_radio_to_on_mtrl_dot_group_animation.xml"
+    }
+]

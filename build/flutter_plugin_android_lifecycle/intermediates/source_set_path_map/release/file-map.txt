@@ -1,0 +1,12 @@
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-3 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 /Users/sahi/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.19/android/src/main/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 /Users/sahi/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.19/android/src/release/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/generated/res/pngs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/generated/res/resValues/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/generated/res/rs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release

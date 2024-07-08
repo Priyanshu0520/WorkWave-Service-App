@@ -1,0 +1,12 @@
+com.spencerccf.app_settings-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.spencerccf.app_settings-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.spencerccf.app_settings-jetified-window-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.spencerccf.app_settings-core-1.6.0-3 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+com.spencerccf.app_settings-main-4 /Users/sahi/.pub-cache/hosted/pub.dev/app_settings-5.1.1/android/src/main/res
+com.spencerccf.app_settings-release-5 /Users/sahi/.pub-cache/hosted/pub.dev/app_settings-5.1.1/android/src/release/res
+com.spencerccf.app_settings-pngs-6 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/generated/res/pngs/release
+com.spencerccf.app_settings-resValues-7 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/generated/res/resValues/release
+com.spencerccf.app_settings-rs-8 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/generated/res/rs/release
+com.spencerccf.app_settings-mergeReleaseResources-9 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.spencerccf.app_settings-mergeReleaseResources-10 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.spencerccf.app_settings-merged_res-11 /Users/sahi/Downloads/WorkWave Service App/build/app_settings/intermediates/merged_res/release

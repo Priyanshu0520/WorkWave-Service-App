@@ -5,7 +5,6 @@ import '../../new utils/colors.dart';
 import '../Home/Employer_Home/emp_home.dart';
 import '../My projects/Employer my project/emp_activity_myproject.dart';
 import '../Profile/Employer_profile/emp_profilee.dart';
-import '../Service_tab_screen/emp_services_screen.dart';
 
 
 class EmpBottomNavBarProvider extends ChangeNotifier {

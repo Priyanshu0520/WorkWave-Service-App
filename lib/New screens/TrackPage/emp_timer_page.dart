@@ -12,11 +12,11 @@ import '../billing_payment_screens/empBillingScreen.dart';
 import 'emp_description_screen.dart';
 
 class EmpTimerPage extends StatefulWidget {
-  var manpowerid;
-  var orderid;
+  var manpowerId;
+  var orderId;
   var orderlat;
   var orderlongi;
-  var ordercategory;
+  var orderCategory;
   var orderotp;
   var orderlocation;
   var orderprice;
@@ -25,11 +25,11 @@ class EmpTimerPage extends StatefulWidget {
   var orderworkdetail;
 
   EmpTimerPage({
-    this.manpowerid,
-    this.orderid,
+    this.manpowerId,
+    this.orderId,
     this.orderlat,
     this.orderlongi,
-    this.ordercategory,
+    this.orderCategory,
     this.orderotp,
     this.orderlocation,
     this.orderprice,
@@ -78,17 +78,16 @@ class _EmpTimerPageState extends State<EmpTimerPage>
 
   bool isApiCallActive = true;
   Future<void> naviagtionstatus() async {
-    var id = widget.orderid; // Make sure to have access to the orderid
+    var id = widget.orderId; // Make sure to have access to the orderid
     while (isApiCallActive) {
       final response = await http.get(Uri.parse(
           'https://workwave-backend.vercel.app/api/v1/employer/getStartEmdTimeByOrderId/$id'));
 
       if (response.statusCode == 200) {
-        print("i am rumming");
         // Parse the response body
         Map<String, dynamic> apiResponse = json.decode(response.body);
         // Extract the start time from the API response
-        String? startTimeString = apiResponse['startTime'];
+      //  String? startTimeString = apiResponse['startTime'];
         String? orderStatus = apiResponse['orderStatus'];
         // Navigate to the timer page passing the start time
         if (orderStatus == 'Completed') {
@@ -96,10 +95,10 @@ class _EmpTimerPageState extends State<EmpTimerPage>
           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-              builder: (context) => EmpBillingPageIn(
-                manpowerid: widget.manpowerid,
-                newOrderId: widget.orderid,
-                category: widget.ordercategory,
+              builder: (context) => EmpBillingPage(
+                manpowerId: widget.manpowerId,
+                newOrderId: widget.orderId,
+                category: widget.orderCategory,
               ),
             ),
           );
@@ -189,15 +188,15 @@ class _EmpTimerPageState extends State<EmpTimerPage>
     Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-            builder: (context) => EmpBillingPageIn(
-                  manpowerid: widget.manpowerid,
-                  newOrderId: widget.orderid,
-                  category: widget.ordercategory,
+            builder: (context) => EmpBillingPage(
+                  manpowerId: widget.manpowerId,
+                  newOrderId: widget.orderId,
+                  category: widget.orderCategory,
                 )));
   }
 
   Future<Map<String, dynamic>> fetchDataFromAPI() async {
-    var id = widget.orderid;
+    var id = widget.orderId;
     final response = await http.get(Uri.parse(
         'https://workwave-backend.vercel.app/api/v1/employer/getStartEmdTimeByOrderId/$id'));
 
@@ -352,7 +351,7 @@ class _EmpTimerPageState extends State<EmpTimerPage>
                               Center(
                                 child: Text(
                                   manPowerdata != null
-                                      ? widget.ordercategory ?? ''
+                                      ? widget.orderCategory ?? ''
                                       : "",
                                   style: TextStyle(
                                     fontWeight: FontWeight.w500,
@@ -477,8 +476,8 @@ class _EmpTimerPageState extends State<EmpTimerPage>
                               isExpand
                                   ? EmpDiscriptionScreen(
                                       manpowername: manPowerdata?['name'] ?? '',
-                                      orderid: widget.orderid,
-                                      manpowerid: widget.manpowerid,
+                                      orderid: widget.orderId,
+                                      manpowerid: widget.manpowerId,
                                       orderlocation: widget.orderlocation,
                                       orderprice: widget.orderprice,
                                       orderworkdetail: widget.orderworkdetail,
@@ -507,7 +506,7 @@ class _EmpTimerPageState extends State<EmpTimerPage>
   Future<void> getdataofmanpower() async {
     try {
       // String id = manPoerId;
-      var id = widget.manpowerid;
+      var id = widget.manpowerId;
       final apiUrl = 'https://workwave-backend.vercel.app/api/v1/manpower/$id';
       print(apiUrl);
       print('7');
@@ -540,7 +539,7 @@ class _EmpTimerPageState extends State<EmpTimerPage>
   var orderData;
   Future<void> _getOrderDetails() async {
     try {
-      var id = widget.orderid;
+      var id = widget.orderId;
       var response = await http.get(Uri.parse(
           "https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$id"));
       var json = jsonDecode(response.body);

@@ -8,6 +8,7 @@ import '../../new_services/category_services.dart';
 import 'show_nearby_manpower_order_Detail.dart';
 import 'package:google_places_flutter/google_places_flutter.dart';
 
+// ignore: must_be_immutable
 class InstantHirePage extends StatefulWidget {
   String? category1;
   String? siteLocation;

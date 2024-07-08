@@ -1,0 +1,26 @@
+com.chavesgu.images_picker-lifecycle-runtime-2.3.1-0 /Users/sahi/.gradle/caches/transforms-3/0aa2cd3212b40b7ae00ee9fe4f071f83/transformed/lifecycle-runtime-2.3.1/res
+com.chavesgu.images_picker-fragment-1.3.6-1 /Users/sahi/.gradle/caches/transforms-3/125d41319fa6704136b8ca7e30b3ccfa/transformed/fragment-1.3.6/res
+com.chavesgu.images_picker-jetified-window-java-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.chavesgu.images_picker-jetified-annotation-experimental-1.1.0-3 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.chavesgu.images_picker-lifecycle-viewmodel-2.3.1-4 /Users/sahi/.gradle/caches/transforms-3/49760b3f90b839cf7d616fcb99845312/transformed/lifecycle-viewmodel-2.3.1/res
+com.chavesgu.images_picker-appcompat-1.3.1-5 /Users/sahi/.gradle/caches/transforms-3/4bf2091e903de807032b0221038d317d/transformed/appcompat-1.3.1/res
+com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6 /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/res
+com.chavesgu.images_picker-jetified-appcompat-resources-1.3.1-7 /Users/sahi/.gradle/caches/transforms-3/6fde79b29d98cab8ac1b6effa026f732/transformed/jetified-appcompat-resources-1.3.1/res
+com.chavesgu.images_picker-jetified-activity-1.4.0-8 /Users/sahi/.gradle/caches/transforms-3/8b391295629fc8d357395a87a168dd9e/transformed/jetified-activity-1.4.0/res
+com.chavesgu.images_picker-jetified-savedstate-1.1.0-9 /Users/sahi/.gradle/caches/transforms-3/8ebf6ce798dbde5bc30e02645185ab4f/transformed/jetified-savedstate-1.1.0/res
+com.chavesgu.images_picker-jetified-window-1.0.0-beta04-10 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.chavesgu.images_picker-jetified-camera-view-1.0.0-alpha30-11 /Users/sahi/.gradle/caches/transforms-3/97e69cd0f22645db2a5ce924689bc0d1/transformed/jetified-camera-view-1.0.0-alpha30/res
+com.chavesgu.images_picker-core-1.7.0-12 /Users/sahi/.gradle/caches/transforms-3/b2ed5967d8c594c9d3c777d4b7ce4585/transformed/core-1.7.0/res
+com.chavesgu.images_picker-jetified-camera-lifecycle-1.1.0-alpha10-13 /Users/sahi/.gradle/caches/transforms-3/bbc462610c6f46bdc7ac22e87ff63d0b/transformed/jetified-camera-lifecycle-1.1.0-alpha10/res
+com.chavesgu.images_picker-jetified-glide-4.11.0-14 /Users/sahi/.gradle/caches/transforms-3/bbf9340357c369fdf0dd0ce9c371b0b3/transformed/jetified-glide-4.11.0/res
+com.chavesgu.images_picker-jetified-camera-core-1.1.0-alpha10-15 /Users/sahi/.gradle/caches/transforms-3/c3ecacfec0f6d9b1381261c2fd5e8d7e/transformed/jetified-camera-core-1.1.0-alpha10/res
+com.chavesgu.images_picker-recyclerview-1.2.1-16 /Users/sahi/.gradle/caches/transforms-3/d6142a63319c10b1547b41a280f59c37/transformed/recyclerview-1.2.1/res
+com.chavesgu.images_picker-transition-1.4.1-17 /Users/sahi/.gradle/caches/transforms-3/f87588756a89264c637027c80f9b1c6d/transformed/transition-1.4.1/res
+com.chavesgu.images_picker-main-18 /Users/sahi/.pub-cache/hosted/pub.dev/images_picker-1.2.11/android/src/main/res
+com.chavesgu.images_picker-release-19 /Users/sahi/.pub-cache/hosted/pub.dev/images_picker-1.2.11/android/src/release/res
+com.chavesgu.images_picker-pngs-20 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/generated/res/pngs/release
+com.chavesgu.images_picker-resValues-21 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/generated/res/resValues/release
+com.chavesgu.images_picker-rs-22 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/generated/res/rs/release
+com.chavesgu.images_picker-mergeReleaseResources-23 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.chavesgu.images_picker-mergeReleaseResources-24 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.chavesgu.images_picker-merged_res-25 /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_res/release

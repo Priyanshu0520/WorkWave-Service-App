@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/default_sign_in_logo.png",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-ui-2.6.10-7:/drawable-hdpi/default_sign_in_logo.png"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    }
+]

@@ -37,12 +37,12 @@ final globalNavigatorKey = GlobalKey<NavigatorState>();
     var notificationBody = message.notification?.body.toString();
     var notificationData = message.data['payload'].toString();
 
-    var allfirebaseBackgroundNotificationData = {
+    var allFirebaseBackgroundNotificationData = {
       "notificationTitle": notificationTitle,
       "notificationBody": notificationBody,
       "notificationData": notificationData
     };
-    SharedPreferencesHelper.setBackgroundNotificationData(jsonEncode(allfirebaseBackgroundNotificationData));
+    SharedPreferencesHelper.setBackgroundNotificationData(jsonEncode(allFirebaseBackgroundNotificationData));
 
     if(notificationTitle!.contains('Lead for') && notificationBody != "Session Expired"){
       const String portName = 'way';
@@ -110,7 +110,7 @@ void main() async {
     GlobalConstant.firebaseToken = token;
   }
 
-  // firebase initialisation
+  // firebase initialization
   initNotifications();
 
   FirebaseMessaging.onMessage.listen((RemoteMessage message) {
@@ -135,7 +135,7 @@ void main() async {
     print("...*********" + message.notification!.title.toString());
     var notificationTitle = message.notification?.title.toString();
     var notificationBody = message.notification?.body.toString();
-    var notificationData = message.data['payload'].toString();
+    //var notificationData = message.data['payload'].toString();
     
     NewPushNotification().showNewNotification(globalNavigatorKey.currentContext, 
       notificationTitle, notificationBody, message.data['payload']);

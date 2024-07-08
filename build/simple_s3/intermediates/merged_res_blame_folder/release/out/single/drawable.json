@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable/notification_bg.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable/notification_tile_bg.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable/notification_bg_low.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/drawable/notification_icon_background.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/drawable/notification_icon_background.xml"
+    }
+]

@@ -3,11 +3,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 bool isBusy = false;
 
-bool ismanMapPage = false;
-bool ismanOtpPage = false;
+bool isManMapPage = false;
+bool isManOtpPage = false;
 
 //--
-bool isEmpDedectPage = false;
+bool isEmpDetectPage = false;
 bool isEmpMapPage = false;
 bool isEmpOtpPage = false;
 

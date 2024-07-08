@@ -1,0 +1,1118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.wayforce.wayforce"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:3:5-66
+11-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.CALL_PHONE" />
+12-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:4:5-69
+12-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:4:22-66
+13    <uses-permission
+13-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:6:5-80
+14        android:name="android.permission.READ_EXTERNAL_STORAGE"
+14-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:6:22-77
+15        android:maxSdkVersion="32" />
+15-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-35
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:7:5-81
+16-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:7:22-78
+17    <uses-permission android:name="android.permission.CAMERA" />
+17-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:8:5-65
+17-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:8:22-62
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:9:5-81
+18-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:9:22-78
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:10:5-79
+19-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:11:5-77
+20-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:11:22-74
+21    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+21-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:12:5-84
+21-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:12:22-82
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:3:5-66
+22-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:3:22-64
+23
+24    <!-- for android 13 and above -->
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" /> <!-- For Images -->
+25-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:16:5-76
+25-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:16:22-73
+26    <uses-permission android:name="android.permission.READ_MEDIA_VIDEOS" /> <!-- For video -->
+26-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:17:5-76
+26-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:17:22-73
+27    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" /> <!-- For Audio -->
+27-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:18:5-75
+27-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:18:22-72
+28
+29    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+29-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:20:5-76
+29-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:20:22-74
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:21:5-68
+30-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:21:22-65
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+31-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+32    <uses-permission android:name="android.permission.VIBRATE" />
+32-->[:flutter_local_notifications] /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-66
+32-->[:flutter_local_notifications] /Users/sahi/Downloads/WorkWave Service App/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-63
+33
+34    <queries>
+34-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-19:15
+35        <intent>
+35-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:18
+36            <action android:name="android.intent.action.GET_CONTENT" />
+36-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-72
+36-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:21-69
+37
+38            <data android:mimeType="*/*" />
+38-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-44
+38-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:19-41
+39        </intent>
+40
+41        <package android:name="com.wayforce.wayforce" />
+41-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-52
+41-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:18-49
+42
+43        <intent>
+43-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-14:18
+44            <action android:name="android.media.action.IMAGE_CAPTURE" />
+44-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-73
+44-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-70
+45        </intent>
+46        <intent>
+46-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:18
+47            <action android:name="android.media.action.ACTION_VIDEO_CAPTURE" />
+47-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-80
+47-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:16:21-77
+48        </intent>
+49        <intent>
+49-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:11:9-15:18
+50            <action android:name="android.intent.action.VIEW" />
+50-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:12:13-65
+50-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:12:21-62
+51
+52            <data android:scheme="https" />
+52-->[:file_picker] /Users/sahi/Downloads/WorkWave Service App/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-44
+53        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+54        <package android:name="com.google.android.apps.maps" />
+54-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:9-64
+54-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:33:18-61
+55    </queries>
+56
+57    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+58    <uses-permission android:name="android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS" />
+58-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-89
+58-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-86
+59    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+59-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-81
+59-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-78
+60    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+60-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:23:5-71
+60-->[:images_picker] /Users/sahi/Downloads/WorkWave Service App/build/images_picker/intermediates/merged_manifest/release/AndroidManifest.xml:23:22-68
+61    <uses-permission
+61-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:10:5-12:38
+62        android:name="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+62-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:11:9-77
+63        android:maxSdkVersion="22" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+63-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:12:9-35
+64    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+64-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:5-82
+64-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:26:22-79
+65    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+65-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:25:5-79
+65-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:25:22-76
+66    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+66-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:26:5-88
+66-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:26:22-85
+67    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+67-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:27:5-82
+67-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:27:22-79
+68    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+68-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:26:5-110
+68-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:26:22-107
+69
+70    <uses-feature
+70-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:26:5-28:35
+71        android:glEsVersion="0x00020000"
+71-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:27:9-41
+72        android:required="true" />
+72-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:28:9-32
+73
+74    <permission
+74-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+75        android:name="com.wayforce.wayforce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+75-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+76        android:protectionLevel="signature" />
+76-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+77
+78    <uses-permission android:name="com.wayforce.wayforce.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+78-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+78-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+79    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- for android -->
+79-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:6:5-75
+79-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:6:22-73
+80    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+81    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+82    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+83    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+84    <!-- for Samsung -->
+85    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+85-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+85-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+86    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+86-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+86-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+87    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+87-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+87-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+88    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+88-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+88-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+89    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+89-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+89-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+90    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+90-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+90-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+91    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+91-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+91-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+92    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+92-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+92-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+93    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+93-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+93-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+94    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+94-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+94-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+95    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+95-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+95-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+96    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+96-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+96-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+97    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+97-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+97-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+98    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+98-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+98-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+99    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+99-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+99-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+100    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+100-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+100-->[me.leolin:ShortcutBadger:1.1.22] /Users/sahi/.gradle/caches/transforms-3/73b0326764b8a36bedb7619fc70f5ac8/transformed/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+101
+102    <application
+103        android:name="android.app.Application"
+103-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:25:9-42
+104        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+104-->[androidx.core:core:1.10.1] /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+105        android:icon="@mipmap/ic_launcher"
+105-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:26:9-43
+106        android:label="WayForce"
+106-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:24:9-33
+107        android:supportsRtl="true" >
+107-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:7:18-44
+108        <activity
+108-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:27:9-54:20
+109            android:name="com.wayforce.wayforce.MainActivity"
+109-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:28:13-41
+110            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+110-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:33:13-163
+111            android:exported="true"
+111-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:29:13-36
+112            android:hardwareAccelerated="true"
+112-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:34:13-47
+113            android:launchMode="singleTop"
+113-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:31:13-43
+114            android:theme="@style/LaunchTheme"
+114-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:32:13-47
+115            android:usesCleartextTraffic="true"
+115-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:30:13-48
+116            android:windowSoftInputMode="adjustResize" >
+116-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:35:13-55
+117
+118            <!--
+119                 Specifies an Android theme to apply to this Activity as soon as
+120                 the Android process has started. This theme is visible to the user
+121                 while the Flutter UI initializes. After that, this theme continues
+122                 to determine the Window background behind the Flutter UI.
+123            -->
+124            <meta-data
+124-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:40:13-43:17
+125                android:name="io.flutter.embedding.android.NormalTheme"
+125-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:41:15-70
+126                android:resource="@style/NormalTheme" />
+126-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:42:15-52
+127            <!--
+128                <meta-data
+129                android:name="com.google.firebase.messaging.default_notification_channel_id"
+130                android:value="wayforceNotification"/>
+131            -->
+132            <meta-data
+132-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:47:17-49:55
+133                android:name="com.google.firebase.messaging.default_notification_channel_id"
+133-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:48:17-93
+134                android:value="wayforcenotification" />
+134-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:49:17-53
+135
+136            <intent-filter>
+136-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:50:13-53:29
+137                <action android:name="android.intent.action.MAIN" />
+137-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:51:17-68
+137-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:51:25-66
+138
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:52:17-76
+139-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:52:27-74
+140            </intent-filter>
+141        </activity>
+142        <!--
+143             Don't delete the meta-data below.
+144             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+145        -->
+146        <meta-data
+146-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:57:9-59:34
+147            android:name="flutterEmbedding"
+147-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:58:13-44
+148            android:value="2" />
+148-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:59:13-30
+149        <meta-data
+149-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:61:13-63:18
+150            android:name="com.google.android.geo.API_KEY"
+150-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:61:24-69
+151            android:value="AIzaSyDPqZ0_gzMHgTKMc9l6F_VKZOpaX4eytkE" />
+151-->/Users/sahi/Downloads/WorkWave Service App/android/app/src/main/AndroidManifest.xml:62:16-71
+152
+153        <service
+153-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+154            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+154-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+155            android:exported="false"
+155-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+157        <service
+157-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+158            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+158-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+159            android:exported="false" >
+159-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+160            <intent-filter>
+160-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+161                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+161-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+161-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+162            </intent-filter>
+163        </service>
+164
+165        <receiver
+165-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+166            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+166-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+167            android:exported="true"
+167-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+168            android:permission="com.google.android.c2dm.permission.SEND" >
+168-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+169            <intent-filter>
+169-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+170                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+170-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+170-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+171            </intent-filter>
+172        </receiver>
+173
+174        <service
+174-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+175            android:name="com.google.firebase.components.ComponentDiscoveryService"
+175-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+176            android:directBootAware="true"
+176-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+177            android:exported="false" >
+177-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:21:13-37
+178            <meta-data
+178-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+179                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+179-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+181            <meta-data
+181-->[:cloud_firestore] /Users/sahi/Downloads/WorkWave Service App/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+182                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+182-->[:cloud_firestore] /Users/sahi/Downloads/WorkWave Service App/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-134
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[:cloud_firestore] /Users/sahi/Downloads/WorkWave Service App/build/cloud_firestore/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+184            <meta-data
+184-->[:firebase_analytics] /Users/sahi/Downloads/WorkWave Service App/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:85
+185                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+185-->[:firebase_analytics] /Users/sahi/Downloads/WorkWave Service App/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-128
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[:firebase_analytics] /Users/sahi/Downloads/WorkWave Service App/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-82
+187            <meta-data
+187-->[:firebase_in_app_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_in_app_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+188                android:name="com.google.firebase.components:io.flutter.plugins.firebase.inappmessaging.FlutterFirebaseAppRegistrar"
+188-->[:firebase_in_app_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_in_app_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-133
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[:firebase_in_app_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_in_app_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+190            <meta-data
+190-->[:firebase_core] /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+191                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+191-->[:firebase_core] /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[:firebase_core] /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:22:13-24:85
+194                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayKtxRegistrar"
+194-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:23:17-147
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:24:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:25:13-27:85
+197                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.display.FirebaseInAppMessagingDisplayRegistrar"
+197-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:26:17-144
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-inappmessaging-display:21.0.0] /Users/sahi/.gradle/caches/transforms-3/cf26d1a02c1ac229254a92878c56ae94/transformed/jetified-firebase-inappmessaging-display-21.0.0/AndroidManifest.xml:27:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-analytics-ktx:22.0.1] /Users/sahi/.gradle/caches/transforms-3/c03db10941ceffb4d3b5eacfe629e6b9/transformed/jetified-firebase-analytics-ktx-22.0.1/AndroidManifest.xml:11:13-13:85
+200                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+200-->[com.google.firebase:firebase-analytics-ktx:22.0.1] /Users/sahi/.gradle/caches/transforms-3/c03db10941ceffb4d3b5eacfe629e6b9/transformed/jetified-firebase-analytics-ktx-22.0.1/AndroidManifest.xml:12:17-129
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-analytics-ktx:22.0.1] /Users/sahi/.gradle/caches/transforms-3/c03db10941ceffb4d3b5eacfe629e6b9/transformed/jetified-firebase-analytics-ktx-22.0.1/AndroidManifest.xml:13:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:57:13-59:85
+203                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+203-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:58:17-122
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:59:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:60:13-62:85
+206                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+206-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:61:17-119
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:62:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:17:13-19:85
+209                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+209-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:18:17-122
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:19:17-82
+211            <meta-data
+211-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:20:13-22:85
+212                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+212-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:21:17-111
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.firebase:firebase-firestore:25.0.0] /Users/sahi/.gradle/caches/transforms-3/7a18ea1297061babd2a6ff90e058e750/transformed/jetified-firebase-firestore-25.0.0/AndroidManifest.xml:22:17-82
+214            <meta-data
+214-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:37:13-39:85
+215                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+215-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:38:17-139
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:39:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:14:13-16:85
+218                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingKtxRegistrar"
+218-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:15:17-132
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:16:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:17:13-19:85
+221                android:name="com.google.firebase.components:com.google.firebase.inappmessaging.FirebaseInAppMessagingRegistrar"
+221-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:18:17-129
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-inappmessaging:21.0.0] /Users/sahi/.gradle/caches/transforms-3/a09bcef180459bd435d33c0ecf78ba16/transformed/jetified-firebase-inappmessaging-21.0.0/AndroidManifest.xml:19:17-82
+223            <meta-data
+223-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+224                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+224-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+225                android:value="com.google.firebase.components.ComponentRegistrar" />
+225-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+226            <meta-data
+226-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+227                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+227-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+228                android:value="com.google.firebase.components.ComponentRegistrar" />
+228-->[com.google.firebase:firebase-installations:18.0.0] /Users/sahi/.gradle/caches/transforms-3/d64c8a0c233a6d2dbb728f3d7a05f578/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+229            <meta-data
+229-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/sahi/.gradle/caches/transforms-3/6db4304a5a5df41d15fb3d44268fb571/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+230                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+230-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/sahi/.gradle/caches/transforms-3/6db4304a5a5df41d15fb3d44268fb571/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/sahi/.gradle/caches/transforms-3/6db4304a5a5df41d15fb3d44268fb571/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+232            <meta-data
+232-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+233                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+233-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+234                android:value="com.google.firebase.components.ComponentRegistrar" />
+234-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+235            <meta-data
+235-->[com.google.firebase:firebase-abt:21.1.1] /Users/sahi/.gradle/caches/transforms-3/5b02fe8b13e1e4932e0118b52eb3911d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:12:13-14:85
+236                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+236-->[com.google.firebase:firebase-abt:21.1.1] /Users/sahi/.gradle/caches/transforms-3/5b02fe8b13e1e4932e0118b52eb3911d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:13:17-109
+237                android:value="com.google.firebase.components.ComponentRegistrar" />
+237-->[com.google.firebase:firebase-abt:21.1.1] /Users/sahi/.gradle/caches/transforms-3/5b02fe8b13e1e4932e0118b52eb3911d/transformed/jetified-firebase-abt-21.1.1/AndroidManifest.xml:14:17-82
+238            <meta-data
+238-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/sahi/.gradle/caches/transforms-3/8eef039dc2219e9549b1c5e9fd0ad36f/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:25:13-27:85
+239                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+239-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/sahi/.gradle/caches/transforms-3/8eef039dc2219e9549b1c5e9fd0ad36f/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:26:17-115
+240                android:value="com.google.firebase.components.ComponentRegistrar" />
+240-->[com.google.firebase:firebase-datatransport:18.2.0] /Users/sahi/.gradle/caches/transforms-3/8eef039dc2219e9549b1c5e9fd0ad36f/transformed/jetified-firebase-datatransport-18.2.0/AndroidManifest.xml:27:17-82
+241        </service>
+242
+243        <provider
+243-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+244            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+244-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+245            android:authorities="com.wayforce.wayforce.flutterfirebasemessaginginitprovider"
+245-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+246            android:exported="false"
+246-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+247            android:initOrder="99" />
+247-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+248
+249        <service
+249-->[:geolocator_android] /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:56
+250            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+250-->[:geolocator_android] /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-77
+251            android:enabled="true"
+251-->[:geolocator_android] /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-35
+252            android:exported="false"
+252-->[:geolocator_android] /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+253            android:foregroundServiceType="location" />
+253-->[:geolocator_android] /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-53
+254
+255        <receiver
+255-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-20:20
+256            android:name="com.github.florent37.assets_audio_player.notification.NotificationActionReceiver"
+256-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-108
+257            android:exported="true" >
+257-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-36
+258            <intent-filter>
+258-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:29
+259                <action android:name="android.intent.action.MEDIA_BUTTON" />
+259-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-77
+259-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:25-74
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-27:20
+263            android:name="com.github.florent37.assets_audio_player.notification.CustomMediaButtonReceiver"
+263-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-107
+264            android:exported="true" >
+264-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+265            <intent-filter>
+265-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:29
+266                <action android:name="android.intent.action.MEDIA_BUTTON" />
+266-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-77
+266-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:25-74
+267            </intent-filter>
+268        </receiver>
+269
+270        <service
+270-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:29:9-40:19
+271            android:name="com.github.florent37.assets_audio_player.notification.NotificationService"
+271-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-101
+272            android:enabled="true"
+272-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-35
+273            android:exported="true"
+273-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-36
+274            android:foregroundServiceType="mediaPlayback" >
+274-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-58
+275            <intent-filter>
+275-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-36:29
+276                <action android:name="android.media.browse.MediaBrowserService" />
+276-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-83
+276-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:35:25-80
+277            </intent-filter>
+278            <intent-filter>
+278-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-19:29
+279                <action android:name="android.intent.action.MEDIA_BUTTON" />
+279-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-77
+279-->[:assets_audio_player] /Users/sahi/Downloads/WorkWave Service App/build/assets_audio_player/intermediates/merged_manifest/release/AndroidManifest.xml:18:25-74
+280            </intent-filter>
+281        </service>
+282
+283        <provider
+283-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-19:20
+284            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+284-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-82
+285            android:authorities="com.wayforce.wayforce.flutter.image_provider"
+285-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-74
+286            android:exported="false"
+286-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+287            android:grantUriPermissions="true" >
+287-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+288            <meta-data
+288-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+289                android:name="android.support.FILE_PROVIDER_PATHS"
+289-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+290                android:resource="@xml/flutter_image_picker_file_paths" />
+290-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+291        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+292        <service
+292-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-33:19
+293            android:name="com.google.android.gms.metadata.ModuleDependencies"
+293-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-78
+294            android:enabled="false"
+294-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+295            android:exported="false" >
+295-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-37
+296            <intent-filter>
+296-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-28:29
+297                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+297-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-94
+297-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-91
+298            </intent-filter>
+299
+300            <meta-data
+300-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:36
+301                android:name="photopicker_activity:0:required"
+301-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-63
+302                android:value="" />
+302-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-33
+303        </service>
+304
+305        <receiver
+305-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:9-17:39
+306            android:name="me.carda.awesome_notifications.DartNotificationActionReceiver"
+306-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-89
+307            android:exported="true" />
+307-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-36
+308        <receiver
+308-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-20:39
+309            android:name="me.carda.awesome_notifications.DartDismissedNotificationReceiver"
+309-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-92
+310            android:exported="true" />
+310-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-36
+311        <receiver
+311-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:9-23:39
+312            android:name="me.carda.awesome_notifications.DartScheduledNotificationReceiver"
+312-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-92
+313            android:exported="true" />
+313-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-36
+314        <receiver
+314-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-38:20
+315            android:name="me.carda.awesome_notifications.DartRefreshSchedulesReceiver"
+315-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-87
+316            android:enabled="true"
+316-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-35
+317            android:exported="true" >
+317-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-36
+318            <intent-filter>
+318-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-37:29
+319                <category android:name="android.intent.category.DEFAULT" />
+319-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-76
+319-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:29:27-73
+320
+321                <action android:name="android.intent.action.BOOT_COMPLETED" />
+321-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-79
+321-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-76
+322                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+322-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:17-86
+322-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:32:25-83
+323                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+323-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-84
+323-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-81
+324                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+324-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:17-82
+324-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:34:25-79
+325                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+325-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-82
+325-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:35:25-79
+326                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+326-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-107
+326-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:36:25-104
+327            </intent-filter>
+328        </receiver>
+329
+330        <service
+330-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:40:9-43:72
+331            android:name="me.carda.awesome_notifications.DartBackgroundService"
+331-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-80
+332            android:exported="false"
+332-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
+333            android:permission="android.permission.BIND_JOB_SERVICE" />
+333-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-69
+334        <service
+334-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:44:9-49:43
+335            android:name="me.carda.awesome_notifications.core.services.ForegroundService"
+335-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-90
+336            android:enabled="true"
+336-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-35
+337            android:exported="false"
+337-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-37
+338            android:foregroundServiceType="phoneCall"
+338-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:48:13-54
+339            android:stopWithTask="true" />
+339-->[:awesome_notifications] /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:49:13-40
+340
+341        <activity
+341-->[:url_launcher_android] /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+342            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+342-->[:url_launcher_android] /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+343            android:exported="false"
+343-->[:url_launcher_android] /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+344            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+344-->[:url_launcher_android] /Users/sahi/Downloads/WorkWave Service App/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+345
+346        <provider
+346-->[:open_file] /Users/sahi/Downloads/WorkWave Service App/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:11:9-20:20
+347            android:name="com.crazecoder.openfile.FileProvider"
+347-->[:open_file] /Users/sahi/Downloads/WorkWave Service App/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+348            android:authorities="com.wayforce.wayforce.fileProvider.com.crazecoder.openfile"
+348-->[:open_file] /Users/sahi/Downloads/WorkWave Service App/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-88
+349            android:exported="false"
+349-->[:open_file] /Users/sahi/Downloads/WorkWave Service App/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+350            android:grantUriPermissions="true" >
+350-->[:open_file] /Users/sahi/Downloads/WorkWave Service App/build/open_file/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-47
+351            <meta-data
+351-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+352                android:name="android.support.FILE_PROVIDER_PATHS"
+352-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+353                android:resource="@xml/filepaths" />
+353-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+354        </provider>
+355
+356        <service
+356-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:21:9-28:19
+357            android:name="me.carda.awesome_notifications.core.managers.StatusBarManager"
+357-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:22:13-89
+358            android:exported="true"
+358-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:23:13-36
+359            android:label="My Notification Listener Service" >
+359-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:24:13-61
+360            <intent-filter>
+360-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:25:13-27:29
+361                <action android:name="android.service.notification.NotificationListenerService" />
+361-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:17-99
+361-->[me.carda:AndroidAwnCore:0.9.3] /Users/sahi/.gradle/caches/transforms-3/f89cbc73f3ba97c3a12230c5ea7b286c/transformed/jetified-AndroidAwnCore-0.9.3/AndroidManifest.xml:26:25-96
+362            </intent-filter>
+363        </service>
+364
+365        <receiver
+365-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:29:9-40:20
+366            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+366-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:30:13-78
+367            android:exported="true"
+367-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:31:13-36
+368            android:permission="com.google.android.c2dm.permission.SEND" >
+368-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:32:13-73
+369            <intent-filter>
+369-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+370                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+370-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+370-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+371            </intent-filter>
+372
+373            <meta-data
+373-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:37:13-39:40
+374                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+374-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:38:17-92
+375                android:value="true" />
+375-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:39:17-37
+376        </receiver>
+377        <!--
+378             FirebaseMessagingService performs security checks at runtime,
+379             but set to not exported to explicitly avoid allowing another app to call it.
+380        -->
+381        <service
+381-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:46:9-53:19
+382            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+382-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:47:13-82
+383            android:directBootAware="true"
+383-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:48:13-43
+384            android:exported="false" >
+384-->[com.google.firebase:firebase-messaging:24.0.0] /Users/sahi/.gradle/caches/transforms-3/2ad6a8fae9ef8f991c37a406a0ba9ac8/transformed/jetified-firebase-messaging-24.0.0/AndroidManifest.xml:49:13-37
+385            <intent-filter android:priority="-500" >
+385-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+386                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+386-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+386-->[:firebase_messaging] /Users/sahi/Downloads/WorkWave Service App/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+387            </intent-filter>
+388        </service>
+389
+390        <property
+390-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:30:9-32:61
+391            android:name="android.adservices.AD_SERVICES_CONFIG"
+391-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:31:13-65
+392            android:resource="@xml/ga_ad_services_config" />
+392-->[com.google.android.gms:play-services-measurement-api:22.0.1] /Users/sahi/.gradle/caches/transforms-3/cd4fa19a0ba326d4c58f25e9470dbe5e/transformed/jetified-play-services-measurement-api-22.0.1/AndroidManifest.xml:32:13-58
+393
+394        <provider
+394-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+395            android:name="com.google.firebase.provider.FirebaseInitProvider"
+395-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+396            android:authorities="com.wayforce.wayforce.firebaseinitprovider"
+396-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+397            android:directBootAware="true"
+397-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+398            android:exported="false"
+398-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+399            android:initOrder="100" />
+399-->[com.google.firebase:firebase-common:21.0.0] /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+400        <provider
+400-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:13:9-22:20
+401            android:name="com.luck.picture.lib.PictureFileProvider"
+401-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:14:13-68
+402            android:authorities="com.wayforce.wayforce.luckProvider"
+402-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:15:13-64
+403            android:exported="false"
+403-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:16:13-37
+404            android:grantUriPermissions="true" >
+404-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:17:13-47
+405            <meta-data
+405-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-18:75
+406                android:name="android.support.FILE_PROVIDER_PATHS"
+406-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+407                android:resource="@xml/file_paths" >
+407-->[:image_picker_android] /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:17-72
+408            </meta-data>
+409        </provider>
+410
+411        <activity
+411-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:24:9-27:20
+412            android:name="com.luck.picture.lib.PictureSelectorActivity"
+412-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:25:13-72
+413            android:configChanges="orientation|keyboardHidden|screenSize" >
+413-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:26:13-74
+414        </activity>
+415        <activity
+415-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:28:9-31:20
+416            android:name="com.luck.picture.lib.PictureSelectorWeChatStyleActivity"
+416-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:29:13-83
+417            android:configChanges="orientation|keyboardHidden|screenSize" >
+417-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:30:13-74
+418        </activity>
+419        <activity
+419-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:32:9-36:20
+420            android:name="com.luck.picture.lib.PictureSelectorCameraEmptyActivity"
+420-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:33:13-83
+421            android:configChanges="orientation|keyboardHidden|screenSize"
+421-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:34:13-74
+422            android:theme="@style/Picture.Theme.Translucent" >
+422-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:35:13-61
+423        </activity>
+424        <activity
+424-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:37:9-40:20
+425            android:name="com.luck.picture.lib.PictureCustomCameraActivity"
+425-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:38:13-76
+426            android:configChanges="orientation|keyboardHidden|screenSize" >
+426-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:39:13-74
+427        </activity>
+428        <activity
+428-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:41:9-44:20
+429            android:name="com.luck.picture.lib.PicturePreviewActivity"
+429-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:42:13-71
+430            android:configChanges="orientation|keyboardHidden|screenSize" >
+430-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:43:13-74
+431        </activity>
+432        <activity
+432-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:45:9-48:20
+433            android:name="com.luck.picture.lib.PictureSelectorPreviewWeChatStyleActivity"
+433-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:46:13-90
+434            android:configChanges="orientation|keyboardHidden|screenSize" >
+434-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:47:13-74
+435        </activity>
+436        <activity
+436-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:49:9-53:20
+437            android:name="com.luck.picture.lib.PictureVideoPlayActivity"
+437-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:50:13-73
+438            android:configChanges="orientation|keyboardHidden|screenSize"
+438-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:51:13-74
+439            android:screenOrientation="sensor" >
+439-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:52:13-47
+440        </activity>
+441        <activity
+441-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:54:9-57:20
+442            android:name="com.luck.picture.lib.PictureExternalPreviewActivity"
+442-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:55:13-79
+443            android:configChanges="orientation|keyboardHidden|screenSize" >
+443-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:56:13-74
+444        </activity>
+445        <activity
+445-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:58:9-61:20
+446            android:name="com.luck.picture.lib.PicturePlayAudioActivity"
+446-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:59:13-73
+447            android:configChanges="orientation|keyboardHidden|screenSize" >
+447-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:60:13-74
+448        </activity>
+449        <activity
+449-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:62:9-65:20
+450            android:name="com.yalantis.ucrop.UCropActivity"
+450-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:63:13-60
+451            android:theme="@style/Base.Theme.NoActionBar" >
+451-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:64:13-58
+452        </activity>
+453        <activity
+453-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:66:9-69:20
+454            android:name="com.yalantis.ucrop.PictureMultiCuttingActivity"
+454-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:67:13-74
+455            android:theme="@style/Base.Theme.NoActionBar" >
+455-->[io.github.lucksiege:pictureselector:v2.7.3-rc10] /Users/sahi/.gradle/caches/transforms-3/6086583aef050a88e65426d84ae373ae/transformed/jetified-pictureselector-v2.7.3-rc10/AndroidManifest.xml:68:13-58
+456        </activity>
+457
+458        <service
+458-->[androidx.room:room-runtime:2.5.0] /Users/sahi/.gradle/caches/transforms-3/5b0ccd65602eb297bec256743032b5f7/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+459            android:name="androidx.room.MultiInstanceInvalidationService"
+459-->[androidx.room:room-runtime:2.5.0] /Users/sahi/.gradle/caches/transforms-3/5b0ccd65602eb297bec256743032b5f7/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+460            android:directBootAware="true"
+460-->[androidx.room:room-runtime:2.5.0] /Users/sahi/.gradle/caches/transforms-3/5b0ccd65602eb297bec256743032b5f7/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+461            android:exported="false" />
+461-->[androidx.room:room-runtime:2.5.0] /Users/sahi/.gradle/caches/transforms-3/5b0ccd65602eb297bec256743032b5f7/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+462
+463        <receiver
+463-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:29:9-33:20
+464            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+464-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:30:13-85
+465            android:enabled="true"
+465-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:31:13-35
+466            android:exported="false" >
+466-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:32:13-37
+467        </receiver>
+468
+469        <service
+469-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:35:9-38:40
+470            android:name="com.google.android.gms.measurement.AppMeasurementService"
+470-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:36:13-84
+471            android:enabled="true"
+471-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:37:13-35
+472            android:exported="false" />
+472-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:38:13-37
+473        <service
+473-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:39:9-43:72
+474            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+474-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:40:13-87
+475            android:enabled="true"
+475-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:41:13-35
+476            android:exported="false"
+476-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:42:13-37
+477            android:permission="android.permission.BIND_JOB_SERVICE" />
+477-->[com.google.android.gms:play-services-measurement:22.0.1] /Users/sahi/.gradle/caches/transforms-3/ef7505aee85332cd97bbba334d436454/transformed/jetified-play-services-measurement-22.0.1/AndroidManifest.xml:43:13-69
+478
+479        <uses-library
+479-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/sahi/.gradle/caches/transforms-3/f29b3b4a4f20e1ad746a4eb61bdc80f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+480            android:name="android.ext.adservices"
+480-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/sahi/.gradle/caches/transforms-3/f29b3b4a4f20e1ad746a4eb61bdc80f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+481            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+481-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/sahi/.gradle/caches/transforms-3/f29b3b4a4f20e1ad746a4eb61bdc80f9/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+482        <uses-library
+482-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:39:9-41:40
+483            android:name="org.apache.http.legacy"
+483-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:40:13-50
+484            android:required="false" />
+484-->[com.google.android.gms:play-services-maps:18.2.0] /Users/sahi/.gradle/caches/transforms-3/932e30dfe156bbf41e1c2775d9c89ffb/transformed/jetified-play-services-maps-18.2.0/AndroidManifest.xml:41:13-37
+485
+486        <activity
+486-->[com.google.android.gms:play-services-base:18.1.0] /Users/sahi/.gradle/caches/transforms-3/7cefad30b051654bb42f571f4f3a8fb0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+487            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+487-->[com.google.android.gms:play-services-base:18.1.0] /Users/sahi/.gradle/caches/transforms-3/7cefad30b051654bb42f571f4f3a8fb0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+488            android:exported="false"
+488-->[com.google.android.gms:play-services-base:18.1.0] /Users/sahi/.gradle/caches/transforms-3/7cefad30b051654bb42f571f4f3a8fb0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+489            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+489-->[com.google.android.gms:play-services-base:18.1.0] /Users/sahi/.gradle/caches/transforms-3/7cefad30b051654bb42f571f4f3a8fb0/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+490
+491        <meta-data
+491-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sahi/.gradle/caches/transforms-3/0816ada7e5ed4ae40432fa66a0603b89/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+492            android:name="com.google.android.gms.version"
+492-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sahi/.gradle/caches/transforms-3/0816ada7e5ed4ae40432fa66a0603b89/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+493            android:value="@integer/google_play_services_version" />
+493-->[com.google.android.gms:play-services-basement:18.3.0] /Users/sahi/.gradle/caches/transforms-3/0816ada7e5ed4ae40432fa66a0603b89/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+494
+495        <provider
+495-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+496            android:name="androidx.startup.InitializationProvider"
+496-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+497            android:authorities="com.wayforce.wayforce.androidx-startup"
+497-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+498            android:exported="false" >
+498-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+499            <meta-data
+499-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+500                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+500-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+501                android:value="androidx.startup" />
+501-->[androidx.emoji2:emoji2:1.2.0] /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+502            <meta-data
+502-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sahi/.gradle/caches/transforms-3/8210b8805c9fcdfdbcbdc1e03195eab0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+503                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+503-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sahi/.gradle/caches/transforms-3/8210b8805c9fcdfdbcbdc1e03195eab0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+504                android:value="androidx.startup" />
+504-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/sahi/.gradle/caches/transforms-3/8210b8805c9fcdfdbcbdc1e03195eab0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+505            <meta-data
+505-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+506                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+506-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+507                android:value="androidx.startup" />
+507-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+508        </provider>
+509
+510        <uses-library
+510-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+511            android:name="androidx.window.extensions"
+511-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+512            android:required="false" />
+512-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+513        <uses-library
+513-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+514            android:name="androidx.window.sidecar"
+514-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+515            android:required="false" />
+515-->[androidx.window:window:1.0.0-beta04] /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+516        <!--
+517        Service for holding metadata. Cannot be instantiated.
+518        Metadata will be merged from other manifests.
+519        -->
+520        <service
+520-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/sahi/.gradle/caches/transforms-3/c3ecacfec0f6d9b1381261c2fd5e8d7e/transformed/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:31:9-35:45
+521            android:name="androidx.camera.core.impl.MetadataHolderService"
+521-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/sahi/.gradle/caches/transforms-3/c3ecacfec0f6d9b1381261c2fd5e8d7e/transformed/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:32:13-75
+522            android:enabled="false"
+522-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/sahi/.gradle/caches/transforms-3/c3ecacfec0f6d9b1381261c2fd5e8d7e/transformed/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:33:13-36
+523            android:exported="false" />
+523-->[androidx.camera:camera-core:1.1.0-alpha10] /Users/sahi/.gradle/caches/transforms-3/c3ecacfec0f6d9b1381261c2fd5e8d7e/transformed/jetified-camera-core-1.1.0-alpha10/AndroidManifest.xml:34:13-37
+524
+525        <receiver
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+526            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+526-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+527            android:directBootAware="false"
+527-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+528            android:enabled="true"
+528-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+529            android:exported="true"
+529-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+530            android:permission="android.permission.DUMP" >
+530-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+531            <intent-filter>
+531-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+532                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+532-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+532-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+533            </intent-filter>
+534            <intent-filter>
+534-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+535                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+535-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+535-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+536            </intent-filter>
+537            <intent-filter>
+537-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+538                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+538-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+538-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+539            </intent-filter>
+540            <intent-filter>
+540-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+541                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+541-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+541-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+542            </intent-filter>
+543        </receiver>
+544
+545        <service
+545-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+546            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+546-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+547            android:exported="false" >
+547-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+548            <meta-data
+548-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+549                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+549-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+550                android:value="cct" />
+550-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/sahi/.gradle/caches/transforms-3/4dbcdc5f8b3cde3eafb960cbeae5603b/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+551        </service>
+552        <service
+552-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+553            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+553-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+554            android:exported="false"
+554-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+555            android:permission="android.permission.BIND_JOB_SERVICE" >
+555-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+556        </service>
+557
+558        <receiver
+558-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+559            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+559-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+560            android:exported="false" />
+560-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/sahi/.gradle/caches/transforms-3/f14367b5f5d4a1f636edf9b0ae7fea3a/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+561
+562        <activity
+562-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:9:10-269
+563            android:name="com.amazonaws.mobile.auth.userpools.ForceChangePasswordActivity"
+563-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:9:152-230
+564            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+564-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:9:20-90
+565            android:label="@string/title_activity_force_change_password"
+565-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:9:91-151
+566            android:screenOrientation="portrait" />
+566-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:9:231-267
+567        <activity
+567-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:10:10-258
+568            android:name="com.amazonaws.mobile.auth.userpools.ForgotPasswordActivity"
+568-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:10:146-219
+569            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+569-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:10:20-90
+570            android:label="@string/title_activity_forgot_password"
+570-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:10:91-145
+571            android:screenOrientation="portrait" />
+571-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:10:220-256
+572        <activity
+572-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:11:10-242
+573            android:name="com.amazonaws.mobile.auth.userpools.SignUpActivity"
+573-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:11:138-203
+574            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+574-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:11:20-90
+575            android:label="@string/title_activity_sign_up"
+575-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:11:91-137
+576            android:screenOrientation="portrait" />
+576-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:11:204-240
+577        <activity
+577-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:13:10-235
+578            android:name="com.amazonaws.mobile.auth.userpools.MFAActivity"
+578-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:13:134-196
+579            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+579-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:13:20-90
+580            android:label="@string/title_activity_mfa"
+580-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:13:91-133
+581            android:screenOrientation="portrait" />
+581-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:13:197-233
+582        <activity
+582-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:15:10-257
+583            android:name="com.amazonaws.mobile.auth.userpools.SignUpConfirmActivity"
+583-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:15:146-218
+584            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+584-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:15:20-90
+585            android:label="@string/title_activity_sign_up_confirm"
+585-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:15:91-145
+586            android:screenOrientation="portrait" />
+586-->[com.amazonaws:aws-android-sdk-auth-userpools:2.16.6] /Users/sahi/.gradle/caches/transforms-3/a83e0ec81883effd0f68b2bd641867d0/transformed/jetified-aws-android-sdk-auth-userpools-2.16.6/AndroidManifest.xml:15:219-255
+587        <activity
+587-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:8:9-234
+588            android:name="com.amazonaws.mobile.auth.ui.SignInActivity"
+588-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:8:137-195
+589            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+589-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:8:19-89
+590            android:label="@string/title_activity_sign_in"
+590-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:8:90-136
+591            android:screenOrientation="portrait" />
+591-->[com.amazonaws:aws-android-sdk-auth-ui:2.6.10] /Users/sahi/.gradle/caches/transforms-3/dcb4e9da80b1165aae2cc8921111a5ae/transformed/jetified-aws-android-sdk-auth-ui-2.6.10/AndroidManifest.xml:8:196-232
+592    </application>
+593
+594</manifest>

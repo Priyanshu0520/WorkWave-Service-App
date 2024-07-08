@@ -1,0 +1,44 @@
+me.carda.awesome_notifications-drawerlayout-1.1.1-0 /Users/sahi/.gradle/caches/transforms-3/00cd719aa003e073dc1934c9c7b6cbda/transformed/drawerlayout-1.1.1/res
+me.carda.awesome_notifications-constraintlayout-2.0.1-1 /Users/sahi/.gradle/caches/transforms-3/021eb27015c02a150ef72d99835a15db/transformed/constraintlayout-2.0.1/res
+me.carda.awesome_notifications-jetified-lifecycle-service-2.6.1-2 /Users/sahi/.gradle/caches/transforms-3/07492751d60bc4943be152cb12741526/transformed/jetified-lifecycle-service-2.6.1/res
+me.carda.awesome_notifications-jetified-activity-1.8.0-3 /Users/sahi/.gradle/caches/transforms-3/095275ee9678c1dc92d86200c416d417/transformed/jetified-activity-1.8.0/res
+me.carda.awesome_notifications-jetified-startup-runtime-1.1.1-4 /Users/sahi/.gradle/caches/transforms-3/0b67ed2539b6580026d6207f66af8333/transformed/jetified-startup-runtime-1.1.1/res
+me.carda.awesome_notifications-cardview-1.0.0-5 /Users/sahi/.gradle/caches/transforms-3/11add085644021d24788e82f4abd097b/transformed/cardview-1.0.0/res
+me.carda.awesome_notifications-jetified-emoji2-1.2.0-6 /Users/sahi/.gradle/caches/transforms-3/11b4c9f182abf3f173d299b973c1f784/transformed/jetified-emoji2-1.2.0/res
+me.carda.awesome_notifications-fragment-1.3.6-7 /Users/sahi/.gradle/caches/transforms-3/125d41319fa6704136b8ca7e30b3ccfa/transformed/fragment-1.3.6/res
+me.carda.awesome_notifications-material-1.11.0-8 /Users/sahi/.gradle/caches/transforms-3/1993d4b0128f268a47ada43896cc870a/transformed/material-1.11.0/res
+me.carda.awesome_notifications-jetified-window-java-1.0.0-beta04-9 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+me.carda.awesome_notifications-sqlite-framework-2.3.0-10 /Users/sahi/.gradle/caches/transforms-3/30dbc5ab3506eee4bea4c92250597d0b/transformed/sqlite-framework-2.3.0/res
+me.carda.awesome_notifications-jetified-appcompat-resources-1.6.1-11 /Users/sahi/.gradle/caches/transforms-3/3207710309c5f0443a5d47e19007b383/transformed/jetified-appcompat-resources-1.6.1/res
+me.carda.awesome_notifications-localbroadcastmanager-1.1.0-12 /Users/sahi/.gradle/caches/transforms-3/3468f3184b835b4d5e098927c70cec36/transformed/localbroadcastmanager-1.1.0/res
+me.carda.awesome_notifications-lifecycle-livedata-2.6.1-13 /Users/sahi/.gradle/caches/transforms-3/38a58e28f6bea134c7c2090a55cf46f5/transformed/lifecycle-livedata-2.6.1/res
+me.carda.awesome_notifications-jetified-savedstate-1.2.1-14 /Users/sahi/.gradle/caches/transforms-3/409dd0e88de104e7bc4a009aaa288ae3/transformed/jetified-savedstate-1.2.1/res
+me.carda.awesome_notifications-sqlite-2.3.0-15 /Users/sahi/.gradle/caches/transforms-3/43b5cdf1ca83579a7c15ca6a40b9f0a7/transformed/sqlite-2.3.0/res
+me.carda.awesome_notifications-jetified-annotation-experimental-1.3.0-16 /Users/sahi/.gradle/caches/transforms-3/4a661a766a6f54e217b96ad50eacfd54/transformed/jetified-annotation-experimental-1.3.0/res
+me.carda.awesome_notifications-coordinatorlayout-1.1.0-17 /Users/sahi/.gradle/caches/transforms-3/4c12cd9e982fcfa0a0ac85c9449c97de/transformed/coordinatorlayout-1.1.0/res
+me.carda.awesome_notifications-lifecycle-runtime-2.6.1-18 /Users/sahi/.gradle/caches/transforms-3/54be198f4ef215fad7cedceed15f02a2/transformed/lifecycle-runtime-2.6.1/res
+me.carda.awesome_notifications-appcompat-1.6.1-19 /Users/sahi/.gradle/caches/transforms-3/552b50512c2091a8997a492b9b0ceb9c/transformed/appcompat-1.6.1/res
+me.carda.awesome_notifications-room-runtime-2.5.0-20 /Users/sahi/.gradle/caches/transforms-3/5b0ccd65602eb297bec256743032b5f7/transformed/room-runtime-2.5.0/res
+me.carda.awesome_notifications-transition-1.2.0-21 /Users/sahi/.gradle/caches/transforms-3/60aca1023a7822931cd5c92871b51db6/transformed/transition-1.2.0/res
+me.carda.awesome_notifications-lifecycle-reactivestreams-2.6.1-22 /Users/sahi/.gradle/caches/transforms-3/641ea4936c4e7e068ef6527977fa3d88/transformed/lifecycle-reactivestreams-2.6.1/res
+me.carda.awesome_notifications-jetified-lifecycle-viewmodel-savedstate-2.6.1-23 /Users/sahi/.gradle/caches/transforms-3/6b950040e09b69d6ae7047f89adf368a/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res
+me.carda.awesome_notifications-lifecycle-viewmodel-2.6.1-24 /Users/sahi/.gradle/caches/transforms-3/6c81c2fdc4564feb402bbd6a5ed2019c/transformed/lifecycle-viewmodel-2.6.1/res
+me.carda.awesome_notifications-core-runtime-2.2.0-25 /Users/sahi/.gradle/caches/transforms-3/7834c943327553f0e6b15881bded8f48/transformed/core-runtime-2.2.0/res
+me.carda.awesome_notifications-lifecycle-livedata-core-2.6.1-26 /Users/sahi/.gradle/caches/transforms-3/78fd999287d7d8d5a15b168a2c433992/transformed/lifecycle-livedata-core-2.6.1/res
+me.carda.awesome_notifications-media-1.7.0-27 /Users/sahi/.gradle/caches/transforms-3/7fbf9defd8bc4a37ed5e5c7905f75aa9/transformed/media-1.7.0/res
+me.carda.awesome_notifications-jetified-lifecycle-process-2.6.1-28 /Users/sahi/.gradle/caches/transforms-3/8210b8805c9fcdfdbcbdc1e03195eab0/transformed/jetified-lifecycle-process-2.6.1/res
+me.carda.awesome_notifications-jetified-window-1.0.0-beta04-29 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+me.carda.awesome_notifications-core-1.9.0-30 /Users/sahi/.gradle/caches/transforms-3/9f1f2e185c187fb81ad9d97104690374/transformed/core-1.9.0/res
+me.carda.awesome_notifications-jetified-profileinstaller-1.3.0-31 /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/res
+me.carda.awesome_notifications-jetified-viewpager2-1.0.0-32 /Users/sahi/.gradle/caches/transforms-3/effc6ea297ebf02be10c18cf09667bb2/transformed/jetified-viewpager2-1.0.0/res
+me.carda.awesome_notifications-jetified-core-ktx-1.9.0-33 /Users/sahi/.gradle/caches/transforms-3/f217a045aa69937e712367bf38871913/transformed/jetified-core-ktx-1.9.0/res
+me.carda.awesome_notifications-recyclerview-1.1.0-34 /Users/sahi/.gradle/caches/transforms-3/f693ef755d146f324fda1f15a4e9c390/transformed/recyclerview-1.1.0/res
+me.carda.awesome_notifications-jetified-emoji2-views-helper-1.2.0-35 /Users/sahi/.gradle/caches/transforms-3/f83f425711d4c803290c09b373dcad20/transformed/jetified-emoji2-views-helper-1.2.0/res
+me.carda.awesome_notifications-main-36 /Users/sahi/.pub-cache/hosted/pub.dev/awesome_notifications-0.9.3+1/android/src/main/res
+me.carda.awesome_notifications-release-37 /Users/sahi/.pub-cache/hosted/pub.dev/awesome_notifications-0.9.3+1/android/src/release/res
+me.carda.awesome_notifications-pngs-38 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/generated/res/pngs/release
+me.carda.awesome_notifications-resValues-39 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/generated/res/resValues/release
+me.carda.awesome_notifications-rs-40 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/generated/res/rs/release
+me.carda.awesome_notifications-mergeReleaseResources-41 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/incremental/release/mergeReleaseResources/merged.dir
+me.carda.awesome_notifications-mergeReleaseResources-42 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+me.carda.awesome_notifications-merged_res-43 /Users/sahi/Downloads/WorkWave Service App/build/awesome_notifications/intermediates/merged_res/release

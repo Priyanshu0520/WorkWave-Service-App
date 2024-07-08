@@ -77,7 +77,7 @@ class _EmpDiscriptionScreenState extends State<EmpDiscriptionScreen> {
         isEmpOtpPage = false;
         manStartWork.value = false;
         manExtantTime.value = false;
-        isEmpDedectPage = false;
+        isEmpDetectPage = false;
       } else {
         print('Failed to cancel order: ${response.body}');
         // Handle error gracefully
@@ -122,7 +122,7 @@ class _EmpDiscriptionScreenState extends State<EmpDiscriptionScreen> {
         isEmpOtpPage = false;
         manStartWork.value = false;
         manExtantTime.value = false;
-        isEmpDedectPage = false;
+        isEmpDetectPage = false;
       } else {
         print('Failed to send message to manpower: ${response.body}');
         // Handle error gracefully

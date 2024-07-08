@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.3.0-0 /Users/sahi/.gradle/caches/transforms-3/0816ada7e5ed4ae40432fa66a0603b89/transformed/jetified-play-services-basement-18.3.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-1 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-2 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-21.0.0-3 /Users/sahi/.gradle/caches/transforms-3/3366479554adc90edbe0a5a338dca33f/transformed/jetified-firebase-common-21.0.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-4 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-5 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/sahi/.pub-cache/hosted/pub.dev/firebase_core-3.1.0/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/sahi/.pub-cache/hosted/pub.dev/firebase_core-3.1.0/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/sahi/Downloads/WorkWave Service App/build/firebase_core/intermediates/merged_res/release

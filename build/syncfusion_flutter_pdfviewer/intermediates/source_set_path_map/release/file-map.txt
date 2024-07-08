@@ -1,0 +1,12 @@
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-jetified-window-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-core-1.6.0-3 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-main-4 /Users/sahi/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-20.4.54/android/src/main/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-release-5 /Users/sahi/.pub-cache/hosted/pub.dev/syncfusion_flutter_pdfviewer-20.4.54/android/src/release/res
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-pngs-6 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/generated/res/pngs/release
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-resValues-7 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/generated/res/resValues/release
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-rs-8 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/generated/res/rs/release
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-mergeReleaseResources-9 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-mergeReleaseResources-10 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.syncfusion.flutter.pdfviewer.syncfusion_flutter_pdfviewer-merged_res-11 /Users/sahi/Downloads/WorkWave Service App/build/syncfusion_flutter_pdfviewer/intermediates/merged_res/release

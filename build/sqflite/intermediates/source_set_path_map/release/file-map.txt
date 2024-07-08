@@ -1,0 +1,12 @@
+com.tekartik.sqflite-jetified-window-java-1.0.0-beta04-0 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.tekartik.sqflite-jetified-annotation-experimental-1.1.0-1 /Users/sahi/.gradle/caches/transforms-3/285ab5be8fe97d2723babc61c17b6e24/transformed/jetified-annotation-experimental-1.1.0/res
+com.tekartik.sqflite-jetified-window-1.0.0-beta04-2 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.tekartik.sqflite-core-1.6.0-3 /Users/sahi/.gradle/caches/transforms-3/b9a9e15ac7b94e501a35f835cf8aa806/transformed/core-1.6.0/res
+com.tekartik.sqflite-main-4 /Users/sahi/.pub-cache/hosted/pub.dev/sqflite-2.3.3+1/android/src/main/res
+com.tekartik.sqflite-release-5 /Users/sahi/.pub-cache/hosted/pub.dev/sqflite-2.3.3+1/android/src/release/res
+com.tekartik.sqflite-pngs-6 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/generated/res/pngs/release
+com.tekartik.sqflite-resValues-7 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/generated/res/resValues/release
+com.tekartik.sqflite-rs-8 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/generated/res/rs/release
+com.tekartik.sqflite-mergeReleaseResources-9 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.tekartik.sqflite-mergeReleaseResources-10 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.tekartik.sqflite-merged_res-11 /Users/sahi/Downloads/WorkWave Service App/build/sqflite/intermediates/merged_res/release

@@ -18,14 +18,14 @@ class CategoryService {
   static List<String> getCategoryNames() {
     return categories.map((category) => category.name).toList();
   }
-  static List<String> getCategoryid() {
+  static List<String> getCategoryId() {
     return categories.map((category) => category.id).toList();
   }
 
   static List<double> getCategoryPrices() {
     return categories.map((category) => double.parse(category.price)).toList();
   }
-  static List<double> getCategoryimages() {
+  static List<double> getCategoryImages() {
     return categories.map((category) => double.parse(category.image)).toList();
   }
 }

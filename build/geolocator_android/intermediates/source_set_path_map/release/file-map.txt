@@ -1,0 +1,15 @@
+com.baseflow.geolocator.geolocator_android-lifecycle-runtime-2.3.1-0 /Users/sahi/.gradle/caches/transforms-3/0aa2cd3212b40b7ae00ee9fe4f071f83/transformed/lifecycle-runtime-2.3.1/res
+com.baseflow.geolocator.geolocator_android-jetified-window-java-1.0.0-beta04-1 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-jetified-annotation-experimental-1.3.0-2 /Users/sahi/.gradle/caches/transforms-3/4a661a766a6f54e217b96ad50eacfd54/transformed/jetified-annotation-experimental-1.3.0/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-base-18.1.0-3 /Users/sahi/.gradle/caches/transforms-3/7cefad30b051654bb42f571f4f3a8fb0/transformed/jetified-play-services-base-18.1.0/res
+com.baseflow.geolocator.geolocator_android-jetified-window-1.0.0-beta04-4 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+com.baseflow.geolocator.geolocator_android-core-1.9.0-5 /Users/sahi/.gradle/caches/transforms-3/9f1f2e185c187fb81ad9d97104690374/transformed/core-1.9.0/res
+com.baseflow.geolocator.geolocator_android-jetified-play-services-basement-18.1.0-6 /Users/sahi/.gradle/caches/transforms-3/c25f8788fd2084f96dce825a7ee40ee1/transformed/jetified-play-services-basement-18.1.0/res
+com.baseflow.geolocator.geolocator_android-main-7 /Users/sahi/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/main/res
+com.baseflow.geolocator.geolocator_android-release-8 /Users/sahi/.pub-cache/hosted/pub.dev/geolocator_android-4.3.1/android/src/release/res
+com.baseflow.geolocator.geolocator_android-pngs-9 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/generated/res/pngs/release
+com.baseflow.geolocator.geolocator_android-resValues-10 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/generated/res/resValues/release
+com.baseflow.geolocator.geolocator_android-rs-11 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/generated/res/rs/release
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-12 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.baseflow.geolocator.geolocator_android-mergeReleaseResources-13 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.baseflow.geolocator.geolocator_android-merged_res-14 /Users/sahi/Downloads/WorkWave Service App/build/geolocator_android/intermediates/merged_res/release

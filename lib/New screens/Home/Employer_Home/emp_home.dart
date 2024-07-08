@@ -1,3 +1,5 @@
+// ignore_for_file: unused_element
+
 import 'dart:convert';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -15,6 +17,7 @@ import '../../../new_services/emp_completed _order_services.dart';
 import '../../../new_services/get_all_manpower_services.dart';
 import '../../instantHire/instanthire.dart';
 import 'package:http/http.dart' as http;
+// ignore: unused_import
 import '../../instantHire/show_nearby_manpower_order_Detail.dart';
 import 'category_list_screen.dart';
 
@@ -26,12 +29,12 @@ class EmpHomePage extends StatefulWidget {
 }
 
 handleBackgroundClick() async {
-  var allfirebaseBackgroundNotificationData =
+  var allFirebaseBackgroundNotificationData =
       await SharedPreferencesHelper.getBackgroundNotificationData();
-  if (allfirebaseBackgroundNotificationData != null &&
-      allfirebaseBackgroundNotificationData.length > 0) {
+  if (allFirebaseBackgroundNotificationData != null &&
+      allFirebaseBackgroundNotificationData.length > 0) {
     var savedFirebaseBackgroundNotificationData =
-        jsonDecode(allfirebaseBackgroundNotificationData);
+        jsonDecode(allFirebaseBackgroundNotificationData);
 
     NewPushNotification().showNewNotification(
         globalNavigatorKey.currentContext,
@@ -71,15 +74,15 @@ class _EmpHomePageState extends State<EmpHomePage> {
   }
 
   List<String> categoryNames = [];
-  List<String> categoryid = [];
-  List<String> categoryimage = [];
+  List<String> categoryId = [];
+  List<String> categoryImage = [];
 
   Future<void> loadCategories() async {
     await CategoryService.fetchCategories();
     setState(() {
       categoryNames = CategoryService.getCategoryNames();
-      categoryid = CategoryService.getCategoryid();
-      categoryimage = CategoryService.getCategoryimages().cast<String>();
+      categoryId = CategoryService.getCategoryId();
+      categoryImage = CategoryService.getCategoryImages().cast<String>();
     });
   }
 
@@ -418,8 +421,8 @@ class _EmpHomePageState extends State<EmpHomePage> {
                                                                 0.01,
                                                           ),
                                                           Text(
-                                                            "${manpowerList?[index].currentLocation}" ??
-                                                                "",
+                                                            "${manpowerList?[index].currentLocation}" 
+                                                                ,
                                                             maxLines:
                                                                 2, // Allow up to 2 lines of text
                                                             overflow:
@@ -502,7 +505,7 @@ class _EmpHomePageState extends State<EmpHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Catgories',
+              'Categories',
               style: SafeGoogleFont(
                 'Montserrat',
                 fontSize: mediaQuery.size.width * 0.06,

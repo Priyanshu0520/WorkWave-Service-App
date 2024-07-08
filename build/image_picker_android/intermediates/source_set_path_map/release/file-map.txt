@@ -1,0 +1,24 @@
+io.flutter.plugins.imagepicker.image_picker_android-jetified-startup-runtime-1.1.1-0 /Users/sahi/.gradle/caches/transforms-3/0b67ed2539b6580026d6207f66af8333/transformed/jetified-startup-runtime-1.1.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-java-1.0.0-beta04-1 /Users/sahi/.gradle/caches/transforms-3/20630c4224807e66c5eab7e9c66c762e/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-livedata-2.6.1-2 /Users/sahi/.gradle/caches/transforms-3/38a58e28f6bea134c7c2090a55cf46f5/transformed/lifecycle-livedata-2.6.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-savedstate-1.2.1-3 /Users/sahi/.gradle/caches/transforms-3/409dd0e88de104e7bc4a009aaa288ae3/transformed/jetified-savedstate-1.2.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-annotation-experimental-1.3.0-4 /Users/sahi/.gradle/caches/transforms-3/4a661a766a6f54e217b96ad50eacfd54/transformed/jetified-annotation-experimental-1.3.0/res
+io.flutter.plugins.imagepicker.image_picker_android-core-1.10.1-5 /Users/sahi/.gradle/caches/transforms-3/4a6f0b169f5e04a0d06a29e4136b6ba2/transformed/core-1.10.1/res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-runtime-2.6.1-6 /Users/sahi/.gradle/caches/transforms-3/54be198f4ef215fad7cedceed15f02a2/transformed/lifecycle-runtime-2.6.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-lifecycle-viewmodel-savedstate-2.6.1-7 /Users/sahi/.gradle/caches/transforms-3/6b950040e09b69d6ae7047f89adf368a/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-viewmodel-2.6.1-8 /Users/sahi/.gradle/caches/transforms-3/6c81c2fdc4564feb402bbd6a5ed2019c/transformed/lifecycle-viewmodel-2.6.1/res
+io.flutter.plugins.imagepicker.image_picker_android-core-runtime-2.2.0-9 /Users/sahi/.gradle/caches/transforms-3/7834c943327553f0e6b15881bded8f48/transformed/core-runtime-2.2.0/res
+io.flutter.plugins.imagepicker.image_picker_android-lifecycle-livedata-core-2.6.1-10 /Users/sahi/.gradle/caches/transforms-3/78fd999287d7d8d5a15b168a2c433992/transformed/lifecycle-livedata-core-2.6.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-window-1.0.0-beta04-11 /Users/sahi/.gradle/caches/transforms-3/934532020d5223a2eb254cce940b48a5/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-core-ktx-1.10.1-12 /Users/sahi/.gradle/caches/transforms-3/c13c5cb59301535cd32300f156eba589/transformed/jetified-core-ktx-1.10.1/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-profileinstaller-1.3.0-13 /Users/sahi/.gradle/caches/transforms-3/d450701186a9f38b97e4ad1c47ad7468/transformed/jetified-profileinstaller-1.3.0/res
+io.flutter.plugins.imagepicker.image_picker_android-jetified-activity-1.7.2-14 /Users/sahi/.gradle/caches/transforms-3/d9de8c5025e39bb0274ee97af68270c5/transformed/jetified-activity-1.7.2/res
+io.flutter.plugins.imagepicker.image_picker_android-main-15 /Users/sahi/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+1/android/src/main/res
+io.flutter.plugins.imagepicker.image_picker_android-release-16 /Users/sahi/.pub-cache/hosted/pub.dev/image_picker_android-0.8.12+1/android/src/release/res
+io.flutter.plugins.imagepicker.image_picker_android-packaged_res-17 /Users/sahi/Downloads/WorkWave Service App/build/flutter_plugin_android_lifecycle/intermediates/packaged_res/release
+io.flutter.plugins.imagepicker.image_picker_android-pngs-18 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/generated/res/pngs/release
+io.flutter.plugins.imagepicker.image_picker_android-resValues-19 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/generated/res/resValues/release
+io.flutter.plugins.imagepicker.image_picker_android-rs-20 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/generated/res/rs/release
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-21 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.imagepicker.image_picker_android-mergeReleaseResources-22 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.imagepicker.image_picker_android-merged_res-23 /Users/sahi/Downloads/WorkWave Service App/build/image_picker_android/intermediates/merged_res/release

@@ -25,30 +25,30 @@ import 'manpower_description_screen.dart';
 import 'manpower_timer_page.dart';
 
 class ManpowerTrack extends StatefulWidget {
-  var employerid;
-  var orderid;
-  var orderlat;
-  var orderlongi;
-  var ordercategory;
-  var orderotp;
+  var employerId;
+  var orderId;
+  var orderLat;
+  var orderLong;
+  var orderCategory;
+  var orderOtp;
 
-  var orderlocation;
-  var orderprice;
-  var orderworkinghrs;
+  var orderLocation;
+  var orderPrice;
+  var orderWorkingHour;
   var sitelocation;
-  var orderworkdetail;
+  var orderWorkDetail;
   ManpowerTrack(
-      {this.employerid,
-      this.orderid,
-      this.orderlat,
-      this.orderlongi,
-      this.ordercategory,
-      this.orderotp,
-      this.orderlocation,
-      this.orderprice,
-      this.orderworkinghrs,
+      {this.employerId,
+      this.orderId,
+      this.orderLat,
+      this.orderLong,
+      this.orderCategory,
+      this.orderOtp,
+      this.orderLocation,
+      this.orderPrice,
+      this.orderWorkingHour,
       this.sitelocation,
-      this.orderworkdetail,
+      this.orderWorkDetail,
       super.key});
 
   @override
@@ -384,7 +384,7 @@ class ManpowerTrackState extends State<ManpowerTrack> {
 
     orderId = prefs.getString(orderId) ?? "";
     if (!manStartWork.value) {
-      ismanMapPage = true;
+      isManMapPage = true;
       _getOrderDetails();
       _timer = Timer.periodic(const Duration(seconds: 30), (timer) {
         if (manStartWork.value) {
@@ -396,8 +396,8 @@ class ManpowerTrackState extends State<ManpowerTrack> {
         }
       });
     } else {
-      ismanOtpPage = true;
-      ismanMapPage = false;
+      isManOtpPage = true;
+      isManMapPage = false;
       // if (_timer != null) {
       //   _timer!.cancel();
       // }
@@ -407,7 +407,7 @@ class ManpowerTrackState extends State<ManpowerTrack> {
 
   Future<void> _getOrderDetails() async {
   try {
-    var id = widget.orderid;
+    var id = widget.orderId;
     var response = await http.get(Uri.parse(
         "https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$id"));
     var json = jsonDecode(response.body);
@@ -419,7 +419,7 @@ class ManpowerTrackState extends State<ManpowerTrack> {
 
         setState(() {
           orderData = data;
-          print('orderData:::${widget.orderid}?? $orderId');
+          print('orderData:::${widget.orderId}?? $orderId');
         });
 
         if (orderSts.toLowerCase().contains('cancel')) {
@@ -450,7 +450,7 @@ var employerdata;
   Future<void> getdataofemployer() async {
     try {
       // String id = manPoerId;
-      var id = widget.employerid;
+      var id = widget.employerId;
       final apiUrl = 'https://workwave-backend.vercel.app/api/v1/employer/$id';
       print(apiUrl);
       print('7');
@@ -505,7 +505,7 @@ DateTime formatHours(int totalSeconds) {
   Future<bool> _getOrderDetailsStatus() async {
     bool sts = false;
 
-    var id = widget.orderid;
+    var id = widget.orderId;
     var url =
         'https://workwave-backend.vercel.app/api/v1/employer/get/getStatusOfOrderId?orderId=$id';
     print('uuu22 :::$url');
@@ -539,9 +539,9 @@ DateTime formatHours(int totalSeconds) {
               textConfirm: "Okay",
               onConfirm: () {
                 Get.back();
-                if (ismanMapPage || ismanOtpPage) {
-                  ismanMapPage = false;
-                  ismanOtpPage = false;
+                if (isManMapPage || isManOtpPage) {
+                  isManMapPage = false;
+                  isManOtpPage = false;
                   Get.offAll(() =>  ManNavTab());
                 }
               },
@@ -890,8 +890,8 @@ DateTime formatHours(int totalSeconds) {
                                         children: [
                                           if (currentPageIndex == 0)
                                             ManDiscriptionScreen(
-                                               orederemployerid: widget.employerid,
-                                              orderid: widget.orderid,
+                                               orederemployerid: widget.employerId,
+                                              orderid: widget.orderId,
                                               orderlocation: orderData['siteLocation'],
                                                orderprice: orderData['bookedPayment'],
                                               orderworkdetail:
@@ -974,7 +974,7 @@ DateTime formatHours(int totalSeconds) {
         "orderStatus": "Ongoing"
       });
 
-      var endpoint = widget.orderid;
+      var endpoint = widget.orderId;
       var url = Uri.parse(
           "https://workwave-backend.vercel.app/api/v1/employer/upadtePost/ByStatusOfCompletion/$endpoint");
       print('url${url}');
@@ -1078,20 +1078,20 @@ DateTime formatHours(int totalSeconds) {
                   minimumSize: const Size(10, 45), // set the button size
                 ),
                 onPressed: () async{
-                  print('otp${widget.orderotp}');
-                  if (fillOtp == widget.orderotp) {
-                  print('otp filled ${widget.orderotp}');
+                  print('otp${widget.orderOtp}');
+                  if (fillOtp == widget.orderOtp) {
+                  print('otp filled ${widget.orderOtp}');
                     //sendMsgToEmp(context);
                     await  startWork(context);
                     Navigator.of(context).pop();
-                    print(' idd aayi hhh${widget.orderid}');
+                    print(' idd aayi hhh${widget.orderId}');
                      Navigator.pushReplacement(
                                       context,
                                       MaterialPageRoute(
                                           builder: (context) =>
                                                ManpowerTimerPage( 
-                                                employerid: widget.employerid,
-                                                orderid: widget.orderid,
+                                                employerId: widget.employerId,
+                                                orderId: widget.orderId,
                                                )));
                   } else {
                     Navigator.of(context).pop();
@@ -1126,7 +1126,7 @@ DateTime formatHours(int totalSeconds) {
         "body": "Manpower Strting Your Work",
         "title": "Work Start",
         "senderId": GlobalConstant.userID,
-        "receiverId": widget.employerid,
+        "receiverId": widget.employerId,
         "category": "",
         "siteLocation": "",
         "explainYourWork": "",

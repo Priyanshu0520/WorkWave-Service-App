@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_mfa.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4:/layout/activity_mfa.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/custom_dialog.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_forgot_password.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4:/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/notification_action_tombstone.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_sign_up_confirm.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4:/layout/activity_sign_up_confirm.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/notification_action.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/notification_action.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/notification_template_icon_group.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_force_change_password.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4:/layout/activity_force_change_password.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/notification_template_part_time.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_sign_up.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-userpools-2.16.6-4:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/horizontal_or_sign_in_divider.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-ui-2.6.10-7:/layout/horizontal_or_sign_in_divider.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/activity_sign_in.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-ui-2.6.10-7:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/horizontal_sign_in_divider.xml",
+        "source": "com.abhimortal6.simple_s3-jetified-aws-android-sdk-auth-ui-2.6.10-7:/layout/horizontal_sign_in_divider.xml"
+    },
+    {
+        "merged": "com.abhimortal6.simple_s3-merged_res-14:/layout/notification_template_part_chronometer.xml",
+        "source": "com.abhimortal6.simple_s3-core-1.6.0-6:/layout/notification_template_part_chronometer.xml"
+    }
+]

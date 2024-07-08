@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "me.carda.awesome_notifications-merged_res-42:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/552b50512c2091a8997a492b9b0ceb9c/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "me.carda.awesome_notifications-mergeReleaseResources-40:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/sahi/.gradle/caches/transforms-3/552b50512c2091a8997a492b9b0ceb9c/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

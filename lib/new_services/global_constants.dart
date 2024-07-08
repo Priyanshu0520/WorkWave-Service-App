@@ -10,7 +10,7 @@ class GlobalConstant {
   static var userphone = "";
   static var userName = "";
 
-  static var instantprice = "" ;
+  static var instantPrice = "" ;
   static var instantHireLat ="";
   static var instantHireLong = "" ;
   static var instantHirePlace = "";

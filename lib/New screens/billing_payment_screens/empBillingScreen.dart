@@ -1,23 +1,24 @@
+// ignore_for_file: must_be_immutable
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:wayforce/new%20utils/const.dart';
 import 'package:wayforce/New%20screens/billing_payment_screens/empSuccessPayment.dart';
 
-class EmpBillingPageIn extends StatefulWidget {
-  EmpBillingPageIn({ this.manpowerid, this.newOrderId, this.category});
+class EmpBillingPage extends StatefulWidget {
+  EmpBillingPage({ this.manpowerId, this.newOrderId, this.category});
  
   final String ?newOrderId;
   String ?category;
 
-  String? manpowerid;
+  String? manpowerId;
 
   @override
-  State<EmpBillingPageIn> createState() => _EmpBillingPageInState();
+  State<EmpBillingPage> createState() => _EmpBillingPageState();
 }
 
-class _EmpBillingPageInState extends State<EmpBillingPageIn> {
+class _EmpBillingPageState extends State<EmpBillingPage> {
   var orderData;
  
   String orderId = '';
@@ -35,7 +36,6 @@ class _EmpBillingPageInState extends State<EmpBillingPageIn> {
   }
 
   Future<void> _getOrderDetails() async {
-    SharedPreferences prefs = await SharedPreferences.getInstance();
     String? orderId = widget.newOrderId;
     print(orderId);
 
@@ -68,80 +68,6 @@ class _EmpBillingPageInState extends State<EmpBillingPageIn> {
     }
   }
 
-  // Future<void> completePayment(BuildContext ctx) async {
-  //   setState(() {
-  //     isLoading = true;
-  //   });
-  //   try {
-  //     final apiUrl =
-  //         'http://3.110.135.177/api/paymentt/put/updatePaymentStatus/${widget.newOrderId}';
-  //     print(apiUrl);
-  //     final response = await http.put(Uri.parse(apiUrl));
-  //     print(response.statusCode);
-  //     if (response.statusCode == 200) {
-  //       _sendMsgToManpower(ctx);
-  //       // Navigator.pushReplacement(
-  //       //     ctx,
-  //       //     MaterialPageRoute(
-  //       //         builder: (context) =>  EmpPaymentSucce()));
-  //       print('pay success');
-  //     } else {
-  //       // Handle the error
-  //       print(
-  //           'Failed pay . Status code: ${response.statusCode}');
-  //     }
-  //   } catch (error) {
-  //     // Handle network or other errors
-  //     print('Error paying send: $error');
-  //   }
-  // }
-
-  // void _sendMsgToManpower(BuildContext ctx) async {
-  //   try {
-  //     SharedPreferences prefs = await SharedPreferences.getInstance();
-  //     String empid =
-  //         prefs.getString("employeraccesstoken") ?? "";
-  //     String manPoerId = prefs.getString(SPkey.orderManId) ?? '';
-
-  //     final data = jsonEncode({
-  //       "body": "You have received Payment",
-  //       "title": "Payment get to manpower",
-  //       "senderId": GlobalConstant.userID,
-  //       "receiverId": widget.manpowerid ,
-  //       "category": "",
-  //       "job_desc": "",
-  //       "siteLocation": "",
-  //       "explainYourWork": "",
-  //       "date": "",
-  //       "orderId": widget.newOrderId
-  //     });
-
-  //     var headers = {
-  //       'Content-Type': 'application/json',
-  //     };
-
-  //     var url = Uri.parse(
-  //         "http://3.110.135.177/api//api/v1/employer/findParticularManpowerOrEmployer");
-
-  //     var response = await http.post(url, body: data, headers: headers);
-  //     var json = jsonDecode(response.body);
-
-  //     if (response.statusCode == 200) {
-  //       await clearAllFunction();
-  //       ismanMapPage = false;
-  //       ismanOtpPage = false;
-  //       isEmpDedectPage = false;
-  //       isEmpMapPage = false;
-  //       isEmpOtpPage = false;
-  //       Navigator.pushReplacement(
-  //           ctx,
-  //           MaterialPageRoute(
-  //               builder: (context) =>  EmpPaymentSucce(manpowerid: widget.manpowerid,)));
-  //     }
-  //   } catch (e) {
-  //     print(e.toString());
-  //   }
-  // }
 
   void calculateTimeDifference(String startTimeStr, String endTimeStr) {
     try {
@@ -172,7 +98,6 @@ class _EmpBillingPageInState extends State<EmpBillingPageIn> {
 
   @override
   Widget build(BuildContext context) {
-    print("manpowerrrr id :: ${widget.manpowerid}");
     double screenHeight = MediaQuery.of(context).size.height;
     double screenWidth = MediaQuery.of(context).size.width;
 
@@ -372,15 +297,15 @@ class _EmpBillingPageInState extends State<EmpBillingPageIn> {
                         } else {
                          // completePayment(context);
                           clearAllFunction();
-        ismanMapPage = false;
-        ismanOtpPage = false;
-        isEmpDedectPage = false;
+        isManMapPage = false;
+        isManOtpPage = false;
+        isEmpDetectPage = false;
         isEmpMapPage = false;
         isEmpOtpPage = false;
                           Navigator.pushReplacement(
             context,
             MaterialPageRoute(
-                builder: (context) =>  EmpPaymentSucce(manpowerid: widget.manpowerid,)));
+                builder: (context) =>  EmpPaymentSuccess(manpowerId: widget.manpowerId,)));
                         }
                       },
                       style: ElevatedButton.styleFrom(

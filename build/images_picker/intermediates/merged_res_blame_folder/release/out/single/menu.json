@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/menu/ucrop_menu_activity.xml",
+        "source": "com.chavesgu.images_picker-jetified-pictureselector-v2.7.3-rc10-6:/menu/ucrop_menu_activity.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/menu/example_menu2.xml",
+        "source": "com.chavesgu.images_picker-core-1.7.0-12:/menu/example_menu2.xml"
+    },
+    {
+        "merged": "com.chavesgu.images_picker-merged_res-24:/menu/example_menu.xml",
+        "source": "com.chavesgu.images_picker-core-1.7.0-12:/menu/example_menu.xml"
+    }
+]

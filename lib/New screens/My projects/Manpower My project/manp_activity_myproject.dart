@@ -36,7 +36,7 @@ class _ManMyProjectsState extends State<ManMyProjects> {
   void initState() {
     super.initState();
     Provider.of<ManOngoingOrdersProvider>(context, listen: false)
-        .fetchOngoingOrdersman(context);
+        .fetchOngoingOrdersMan(context);
  
     _completedOrders = _apiService.fetchCompletedOrders();
   }
@@ -114,7 +114,7 @@ class _ManMyProjectsState extends State<ManMyProjects> {
                     padding: const EdgeInsets.all(15.0),
                     child: FutureBuilder<List<ManOngoingOrder>>(
                       future: Provider.of<ManOngoingOrdersProvider>(context)
-                          .fetchOngoingOrdersman(context),
+                          .fetchOngoingOrdersMan(context),
                       builder: (context, snapshot) {
                         if (snapshot.connectionState ==
                             ConnectionState.waiting) {
@@ -140,23 +140,23 @@ class _ManMyProjectsState extends State<ManMyProjects> {
                                           MaterialPageRoute(
                                               builder: (context) =>
                                                   ManpowerTrack(
-                                                    orderprice:
+                                                    orderPrice:
                                                         order.bookedPayment,
-                                                    orderworkdetail:
+                                                    orderWorkDetail:
                                                         order.explainYourWork,
-                                                    orderworkinghrs:
+                                                    orderWorkingHour:
                                                         order.workingHours,
-                                                    orderlocation:
+                                                    orderLocation:
                                                         order.siteLocation,
-                                                    orderotp:
+                                                    orderOtp:
                                                         order.otpSendToEmployer,
-                                                    ordercategory:
+                                                    orderCategory:
                                                         order.category,
-                                                    employerid:
+                                                    employerId:
                                                         order.employerId,
-                                                    orderid: order.orderId,
-                                                    orderlat: order.lati,
-                                                    orderlongi: order.longi,
+                                                    orderId: order.orderId,
+                                                    orderLat: order.lati,
+                                                    orderLong: order.long,
                                                   )));
                                     } else if (order.startTime.isNotEmpty &&
                                             order.endTime.isNotEmpty &&
@@ -172,24 +172,24 @@ class _ManMyProjectsState extends State<ManMyProjects> {
                                           MaterialPageRoute(
                                               builder: (context) =>
                                                   ManpowerTimerPage(
-                                                      orderprice:
+                                                      orderPrice:
                                                           order.bookedPayment,
-                                                      orderworkdetail:
+                                                      orderWorkDetail:
                                                           order.explainYourWork,
-                                                      orderworkinghrs:
+                                                      orderWorkingHour:
                                                           order.workingHours,
-                                                      orderlocation:
+                                                      orderLocation:
                                                           order.siteLocation,
-                                                      orderotp: order
+                                                      orderOtp: order
                                                           .otpSendToEmployer,
-                                                      ordercategory:
+                                                      orderCategory:
                                                           order.category,
-                                                      employerid:
+                                                      employerId:
                                                           order.employerId,
-                                                      orderid: order.orderId,
-                                                      orderlat: order.lati,
-                                                      orderlongi:
-                                                          order.longi)));
+                                                      orderId: order.orderId,
+                                                      orderLat: order.lati,
+                                                      orderLong:
+                                                          order.long)));
                                     } else if (order.startTime.isNotEmpty &&
                                         order.endTime.isNotEmpty &&
                                         order.orderStatus == 'Completed') {
@@ -202,9 +202,9 @@ class _ManMyProjectsState extends State<ManMyProjects> {
                                         context,
                                         MaterialPageRoute(
                                           builder: (context) => ManBillingPage(
-                                              orderid: order.orderId,
-                                              employerid:  order.employerId,
-                                              endtime: order.endTime),
+                                              orderId: order.orderId,
+                                              employerId:  order.employerId,
+                                              endTime: order.endTime),
                                         ),
                                       );
                                     }
