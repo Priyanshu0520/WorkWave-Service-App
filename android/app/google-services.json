@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487208838089",
+    "project_id": "wayforce-413919",
+    "storage_bucket": "wayforce-413919.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487208838089:android:eb7a48134cc53015877e18",
+        "android_client_info": {
+          "package_name": "com.wayforce.wayforce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7JccErD_Tx5GZcl0Yzdo6FroEz_qUOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
